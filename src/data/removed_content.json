@@ -1,0 +1,147 @@
+{
+    "content": [
+        {
+            "challange_one": {
+                "columns": [
+                    {
+                        "editable": true,
+                        "body": "Using the breadboard, some patch cables, the LED, and the buttons on the eBrain; Build a circuit to control the LED.",
+                        "message": "LED is short for Light Emitting Diode... What is a diode?",
+                        "subtitle": "AlTurn on the external LED using the button",
+                        "title": "Défi rapide"
+                    },
+                    {
+                        "image": "svg/materialschapterone.svg"
+                    }
+                ],
+                "type": "content challenge"
+            }
+        },
+        {
+            "chapter_five" : {
+              "columns" : [
+                {
+                  "subtitle" : "Prototyping With Robot In A Can",
+                  "title" : " Chapitre 5"
+                }
+              ],
+              "type" : "title chapter_title"
+            },
+            "what_is_a_computer" : {
+              "columns" : [
+                {
+                  "image" : "computersdo.png",
+                  "fun_fact" : "The information computers handle at the lowest level is always in binary!"
+                },
+                {
+                  "body" : "Computers are quite complex, but simply put they do 3 things. Take input information, process that information, then produce output.",
+                  "message" : "What are some examples of input and output that a computer uses?",
+                  "subtitle" : "Computers are very complex electro-mechanical machines, how can we descibe what they do simply?",
+                  "title" : "What Does A Computer Do?"
+                }
+              ],
+              "type" : "content basics"
+            },
+            "systems_thinking" : {
+              "columns" : [
+                {
+                  "image" : "inputoutput.png",
+                  "message" : "Can you map a system for signing up for an email newsletter?"
+                },
+                {
+                  "body" : "Take the example of an automoblie factory. Simply put, it takes in materials, processes them, and outputs cars.\n\n However if you look into the larger process you will see there is a process just for making the windows, and another for the tires...\n\n It is important to think about this when managing large projects or planning big pieces of code.",
+                  "subtitle" : "Inside every process you may find a subprocess",
+                  "title" : "Systems Thinking"
+                }
+              ],
+              "type" : "content basics"
+            },
+            "hacking" : {
+              "columns" : [
+                {
+                  "image" : "hacking.png",
+                  "message" : "What systems could you hack or add together to re-invent the purpose of the sytem?"
+                },
+                {
+                  "body" : "In order to hack a system, first you must learn how the system works. What are it's inputs and outputs?\n\nSometimes the fastest way to build a new system or to test an idea is to hack together the inputs and outputs of existing systems.\n\nFor example we could take a smoke detector, a phone dialer, and a phone connection, to build a machine that calls you if there is a fire. ",
+                  "subtitle" : "Changing systems in creative ways can create new ideas!",
+                  "title" : "Hacking and Creativity"
+                }
+              ],
+              "type" : "content basics"
+            },
+            "phreaking" : {
+              "columns" : [
+                {
+                  "image" : "phreak.jpg",
+                  "nerd_alert" : "Sometimes this michiveous behaviour gives hackers a bad reputation, but these tools can be used to reshape society for the better too! Steve Jobs and Steve Wozniack were some of the first phone phreakers!"
+                },
+                {
+                  "body" : "Around the time computer systems became popular to use, some hackers figured out how the phone systems worked and were able to make devices called 'Blue Boxes' that could make phone calls on pay phones for free.\n\nThey also figured out that they could disconnect peoples calls by using a whistle found as a toy in the popular cereal 'Captin Crunch'.",
+                  "subtitle" : "The story of the infamous Captin Crunch",
+                  "title" : "Hackers and Phone Phreaking"
+                }
+              ],
+              "type" : "content basics"
+            },
+            "snap_features" : {
+              "columns" : [
+                {
+                  "image" : "videolight.png",
+                  "body" : "Here we can use Snap to check the video camera on your computer for motion and react with the LED."
+                },
+                {
+                  "image" : "svg/eBrain-LED.svg",
+                  "title" : "Inputs from the Computer"
+                }
+              ],
+              "type" : "content basics"
+            },
+            "input_challenge" : {
+              "columns" : [
+                {
+                  "title" : "Challenge!",
+                  "body" : "What other ways can you link inputs from the computer with outputs on the eBrain?",
+                  "message" : "The blue 'Sensing' blocks in snap have blocks for checking some inputs to the computer, you may also find some in other sections, like the 'Control' section."
+                }
+              ],
+              "type" : "content activity"
+            },
+            "analog" : {
+              "columns" : [
+                {
+                  "image" : "a2d.jpg"
+                },
+                {
+                  "body" : "Not all input is just 1 or 0. The natural world produces signals that are infinitely granular like the music from a guitar, but the computer needs a way of interpreting these signals!\n\nSo it breaks down the waves into steps. The eBrain can break down analog signals down into 1024 steps.",
+                  "image" : "analog.png",
+                  "title" : "Analog Input"
+                }
+              ],
+              "type" : "content reference"
+            },
+            "light_sensor" : {
+              "columns" : [
+                {
+                  "image" : "svg/eBrain-lightsensor.svg"
+                },
+                {
+                  "image" : "graphscript.png",
+                  "body" : "Try out this graphing script to graph the light input to the light sensor. This sensor is variable resistor and it changes the amount of electricity it let's pass depending on the amount of light on the sensor. Like the pupil in your eye.",
+                  "title" : "Using the Light Sensor"
+                }
+              ],
+              "type" : "content reference"
+            },
+            "light_sensor_experiment" : {
+              "columns" : [
+                {
+                  "body" : "See if you can make a quick experiment code that reacts to light.",
+                  "title" : "Challenge! Make Your Code React To Light"
+                }
+              ],
+              "type" : "content activity"
+            }
+          }
+    ]
+}

@@ -1,0 +1,1086 @@
+{
+	"items" : {
+	  "chapters" : [
+		{
+		  "cover_page" : {
+			"background_image" : "Robot_Steam_BG_16x9.small.jpg",
+			"columns" : [
+			  {
+				"style" : "align-self: flex-end; font-size: 0.8em; padding-top:22em;",
+				"subtitle" : "Prototypage avec le eBrain"
+			  },
+			  {
+				"style" : "flex-grow: 2;",
+				"logo" : "svg/PrimaryLogo.svg"
+			  },
+			  {}
+			],
+			"comment" : "",
+			"type" : "title cover"
+		  },
+		  "inner_cover" : {
+			"columns" : [
+			  {
+				"editable" : true,
+				"title" : "Conçu pour l'exploration",
+				"subtitle" : "Rapide à assembler et facile à utiliser, commencez à explorer le monde de la technologie dès aujourd'hui !",
+				"message" : "Préparez votre \"Can\". Préparez votre espace de travail. L'avenir dépend de VOUS !"
+			  },
+			  {
+				"body" : "Ce manuel contient une série d'exercices qui vous permettront de vous familiariser avec les bases de l'électronique et du code.\n \nIl vous aidera à vous lancer dans l'aventure et à construire des robots !\n \nVous pouvez toujours suivre le programme d'études suggéré ou passer à l'activité suivante si vous préférez.\n \nAttachez vos ceintures de sécurité et préparez-vous à décoller!.",
+				"comment" : "Please download all the software you will need for this workbook visit: http://build.robotinacan.com "
+			  }
+			],
+			"type" : "content"
+		  }
+		},
+		{
+		  "chapter_one" : {
+			"columns" : [
+			  {
+				"subtitle" : "Qu'y a-t-il dans dans le kit Robot in a Can?",
+				"title" : " Chapitre 1"
+			  }
+			],
+			"type" : "title chapter_title"
+		  },
+		  "whats_in_the_can" : {
+			"columns" : [
+			  {
+				"image" : "svg/WhatsInTheCan.svg",
+				"style" : "flex-grow: 2;"
+			  },
+			  {
+				"list" : [
+				  {
+					"body" : "1x eBrain"
+				  },
+				  {
+					"body" : "2x Moteurs"
+				  },
+				  {
+					"body" : "4x Supports de moteur"
+				  },
+				  {
+					"body" : "2x Corps de robot"
+				  },
+				  {
+					"body" : "2x Châssis"
+				  },
+				  {
+					"body" : "2x Roues"
+				  },
+				  {
+					"body" : "30x Câbles"
+				  },
+				  {
+					"body" : "1x Support à batteries"
+				  },
+				  {
+					"body" : "1x Potentiomètre"
+				  },
+				  {
+					"body" : "2x “Clips Bulldog”"
+				  },
+				  {
+					"body" : "1x Capteur de distance"
+				  },
+				  {
+					"body" : "3x LED"
+				  }
+				],
+				"title" : "Qu'y a-t-il dans la \"Can\"?",
+				"editable" : true
+			  }
+			],
+			"type" : "content reference materials"
+		  },
+		  "electronic_brains" : {
+			"columns" : [
+			  {
+				"image" : "applications.png"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Les ordinateurs ressemblent beaucoup à des machines à penser électroniques. Ces \"cerveaux\" ne sont pas seulement destinés aux ordinateurs portables, aux tablettes et aux téléphones - on les trouve dans toutes sortes d'endroits (comme les avions, les appareils ménagers et les équipements industriels). Ils sont partout autour de nous et aident à faire fonctionner notre société !",
+				"subtitle" : "Tout ce qui est intelligent a un cerveau.",
+				"title" : "Cerveaux électroniques"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "parts_of_the_eBrain" : {
+			"columns" : [
+			  {
+				"image" : "svg/WhatsOnTheBoard.svg",
+				"style" : "flex-grow: 2;"
+			  },
+			  {
+				"editable" : true,
+				"title" : "Ce qu'il y a sur le eBrain:",
+				"list" : [
+				  {
+					"body" : "Interrupteur marche/arrêt"
+				  },
+				  {
+					"body" : "Connexion pour servo-moteur"
+				  },
+				  {
+					"body" : "Connexions pour moteurs de type “Stepper”"
+				  },
+				  {
+					"body" : "Baie de connexions GPIO"
+				  },
+				  {
+					"body" : "Adaptateur USB FTDI"
+				  },
+				  {
+					"body" : "Baie de connexions de type “Patch Bay”"
+				  },
+				  {
+					"body" : "Capteur de lumière"
+				  },
+				  {
+					"body" : "LED RGB"
+				  },
+				  {
+					"body" : "Boutons"
+				  },
+				  {
+					"body" : "“Breadboard”"
+				  },
+				  {
+					"body" : "Connexion pour batteries"
+				  },
+				  {
+					"body" : "Coeur du eBrain (c'est ici où vivent les programmes)"
+				  }
+				]
+			  }
+			],
+			"type" : "content reference materials"
+		  },
+		  "eBrain Superpower 1" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-02.svg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Votre eBrain est une \"Carte de développement\". Cela signifie que le tableau peut être recalibré et utilisé pour de nombreuses tâches différentes. Vous n'avez pas besoin d'utiliser des outils avancés ou d'apprendre la soudure pour construire vos propres circuits. Au lieu de cela, notre eBrain facile à utiliser vous permet de connecter et de construire des circuits en utilisant un système de câbles de raccordement inclus dans le kit.",
+				"subtitle" : "Le eBrain est un bon professeur.",
+				"title" : "Superpouvoir de l’eBrain #1"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "eBrain Superpower 2" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-03.svg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Aucun fil pour vous attacher! Vous pouvez contrôler votre eBrain à distance depuis votre ordinateur ou votre téléphone portable. Comme vous pouvez lui dire quoi faire sans fil, votre robot peut se trouver dans une pièce pendant que vous vous trouvez dans une autre.",
+				"fun_fact" : "Actrice de Hollywood et inventeur Hendy LaMarr a inventé le précurseur au WiFi sécurisé en 1940 !",
+				"subtitle" : "L’eBrain peut parler et écouter par le biais du wifi.",
+				"title" : "Superpouvoir de l’eBrain #2"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "eBrain Superpower 3" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-04.svg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Nous allons voir comment utiliser Snap! notre logiciel de glisser-déposer préféré, mais vous n'êtes pas limité à lui. Vous pouvez aussi programmer votre eBrain avec d'autres langages tels que Arduino C ou Python.",
+				"nerd_alert" : "Les premiers bogues informatiques étaient des vrais insectes qui se sont pris dans les tubes à vides des premiers ordinateurs.",
+				"subtitle" : "L’eBrain peut comprendre de nombreux langages de programmation.",
+				"title" : "Superpouvoir de l’eBrain #3"
+			  }
+			],
+			"type" : "content basics"
+		  }
+		},
+		{
+		  "chapter_two" : {
+			"columns" : [
+			  {
+				"subtitle" : "Getting Started With Robot In A Can",
+				"title" : " Chapitre 2"
+			  }
+			],
+			"type" : "title chapter_title"
+		  },
+		  "chapter_materials" : {
+			"columns" : [
+			  {
+				"image" : "svg/materialschapterone.svg"
+			  },
+			  {
+				"editable" : true,
+				"subtitle" : "Batteries required",
+				"title" : "Materials required for this chapter",
+				"body" : "MATERIALS:",
+				"list" : [
+				  {
+					"body" : "4x AA batteries"
+				  },
+				  {
+					"body" : "1x battery pack"
+				  },
+				  {
+					"body" : "1x eBrain"
+				  },
+				  {
+					"body" : "4x Patch Cables"
+				  },
+				  {
+					"body" : "1x LED"
+				  }
+				],
+				"message" : "Keep your workspace clean and organized like a true designer."
+			  }
+			],
+			"comment_copy" : "AA batery info should be a nerd alert",
+			"type" : "content"
+		  },
+		  "batteries" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-05.svg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "MATÉRIAUX REQUIS: 4x piles AA, 1x bloc-piles, 1x eBrain",
+				"list" : [
+				  {
+					"body" : "Insérer 4 piles AA. Le côté plat doit aller sur les ressorts."
+				  },
+				  {
+					"body" : "Connectez le bloc-piles à la carte. Le connecteur est situé à l'arrière de la carte. Assurez-vous qu'il est dans le bon sens et qu'il s'enclenche bien en place."
+				  },
+				  {
+					"body" : "Allumez-le. Le minuscule interrupteur se trouve à l'avant du tableau. Faites glisser l'interrupteur de 0 à 1 et vous verrez la lumière jaune s'allumer."
+				  }
+				],
+				"subtitle" : "Batteries required",
+				"title" : "Mettez votre eBrain sous tension"
+			  }
+			],
+			"comment_copy" : "AA batery info should be a nerd alert",
+			"type" : "content activity"
+		  },
+		  "Power" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-06.svg",
+				"nerd_alert" : "chaque pile “AA” a 1,5V? Le bloc d'alimentation contient donc 6V au total (4x AA). Le connecteur d'alimentation de votre eBrain fonctionne à 3,3V. L'alimentation a été régulée pour éviter les surcharges ou les chutes de tension, afin que tu puisses toujours avoir du courant quand tu en as besoin!"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Les piles sont connectées à l'arrière de la carte et se prolongent jusqu'aux deux trous à l'avant de la carte.\n\nConsidérez-les comme les côtés d'une batterie. Le 3,3V est le côté positif et le GND (ground) est le côté négatif. Vous pouvez utiliser ces deux trous pour alimenter vos projets!",
+				"subtitle" : "Voici l'alimentation électrique de votre eBrain",
+				"title" : "Courant"
+			  }
+			],
+			"comment_copy" : "AA batery info should be a nerd alert",
+			"type" : "content reference"
+		  },
+		  "gpio" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-07.svg"
+			  },
+			  {
+				"body" : "Entrées/sorties à usage général (en anglais se dit “General Purpose Input Output”, d’où vient l'abréviation “GPIO”)\n\nL’endroit le plus important! Votre ordinateur parle à votre carte par le biais des connexions électriques de la baie GPIO.\n\nCette rangée de trous est presque comme une ligne téléphonique directe vers l'ordinateur. Grâce à ces connexions, l'ordinateur eBrain peut parler (sortir) et écouter (entrer) vers d'autres appareils électroniques. Nous apprendrons à utiliser ces connexions plus tard!",
+				"title" : "Baie GPIO"
+			  }
+			],
+			"type" : "content reference"
+		  },
+		  "patch_bay" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-08.svg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Nous pouvons “patcher” les connexions entre nos “trous” GPIO et les diverses parties de notre eBrain pour les activer. La “patch bay” est connectée à la DEL RGB, les 4 boutons, et le capteur de lumière.",
+				"subtitle" : "La “patch bay” est connectée aux parties électroniques de l'eBrain.",
+				"title" : "“Patch Bay”"
+			  }
+			],
+			"type" : "content reference"
+		  },
+		  "wiring" : {
+			"columns" : [
+			  {
+				"image" : "patch.jpg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Le Robot in a Can utilise des câbles patch comme dans des vieux systèmes téléphoniques pour connecter les entrées et les sorties de différents systèmes.",
+				"subtitle" : "Patcher ensemble des composantes",
+				"title" : "Ajouter des fils au Robot in a Can"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "rgb_led" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-10.svg",
+				"nerd_alert" : "255*255*255 = 16 Million"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Les petites lumières sont de trois couleurs différentes : Rouge, vert et bleu, ou RGB pour faire court. \n\n Vous avez probablement déjà entendu parler du RGB, mais saviez-vous qu'en combinant ces trois couleurs, vous pouvez créer 255 x 255 x 255 nouvelles couleurs? Cela représente plus de 16 millions de combinaisons différentes! Plus d'informations sur le mélange des couleurs plus tard…",
+				"subtitle" : "Votre eBrain a trois petites lumières en surface, et nous allons créer des circuits pour les allumer.",
+				"title" : "La DEL RGB"
+			  }
+			],
+			"type" : "content reference"
+		  },
+		  "wire_led" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-11.svg",
+				"troubleshooting" : "Notez que la connexion jaune à l'extrême gauche du tableau de bord n'est PAS une lumière jaune. Cette connexion va au capteur de lumière (LS - Light Sensor). Nous en apprendrons d’avantage à ce sujet plus tard."
+			  },
+			  {
+				"editable" : true,
+				"list" : [
+				  {
+					"body" : "Prenez un fil “male-to-male” et branchez-le dans la connexion 3,3V située sur la baie du GPIO."
+				  },
+				  {
+					"body" : "Branchez l'autre extrémité dans la connexion marqué “R” (rouge) sur le eBrain. La LED de votre eBrain devrait s'allumer en rouge. Félicitations, vous venez de faire votre premier circuit!"
+				  },
+				  {
+					"body" : "Ensuite, retirez le fil de la connexion “R” et essayez les connexions “G” (vert) et “B” (bleu). Super, vous venez maintenant de faire trois circuits!"
+				  }
+				],
+				"title" : "Allumez la DEL rouge, verte et bleue"
+			  }
+			],
+			"type" : "content activity"
+		  },
+		  "Try making your own light switch" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-12.svg"
+			  },
+			  {
+				"editable" : true,
+				"list" : [
+				  {
+					"body" : "Obtenez un deuxième fil “male-to-male”. Placez un fil dans la prise 3,3V de la baie GPIO, et l'autre dans la prise R du tableau de bord."
+				  },
+				  {
+					"body" : "Prenez maintenant chaque fil dans vos mains et touchez les deux bouts ensemble. Que se passe-t-il? Votre DEL devrait s'allumer en rouge!"
+				  }
+				],
+				"title" : "Essayez de faire votre propre interrupteur"
+			  }
+			],
+			"type" : "content activity"
+		  },
+		  "breadboard" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-09.svg"
+			  },
+			  {
+				"body" : "Vous pouvez imaginer la planche à pain comme plusieurs paires de mains qui tiennent des fils ensemble pour vous.",
+				"fun_fact" : "En électronique, les planches à pain (\"breadboard\") servent à faire des circuits ajustables. Dans le passé, des bricoleurs faisaient des radios et d'autres appareils avec des vraies planches à pain dans lesquels ils avaient martelés des clous.",
+				"title" : "Le “Breadboard” (planche à pain)"
+			  }
+			],
+			"type" : "content reference"
+		  },
+		  "breadboard_how_it_works" : {
+			"columns" : [
+			  {
+				"image" : "svg/fr-eBrain-13.svg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Vous pouvez bien sûr relier des fils en les tenant ensemble, mais heureusement, il existe un moyen beaucoup plus simple, et c'est en utilisant le “breadboard”.\n\n Le “breadboard” vous permet de connecter des choses ensemble pour ne pas avoir à les tenir. \n\n Le “breadboard” de votre eBrain comporte 11 colonnes. Pensez à chaque rangée verticale comme étant une clip métallique (électroniquement conducteur).",
+				"title" : "Comment utiliser le “Breadboard” (planche à pain)"
+			  }
+			],
+			"comment" : "Fun fact",
+			"type" : "content basics"
+		  },
+		  "breadboard_how_it_works_II" : {
+			"columns" : [
+			  {
+				"image" : "insidebreadboard.png"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Ici vous pouvez voir les clips métalliques dans le “breadboard” et comment ils sont arrangés en colonnes\nIls sont faits en métal et ils tiennent les fils ensemble. Parce qu'ils sont des conducteurs, ils transmettent aussi l'électricité.",
+				"title" : "À l'intérieur du “Breadboard”"
+			  }
+			],
+			"comment" : "Fun fact",
+			"type" : "content basics"
+		  },
+		  "use_the_breadboard" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-14.svg"
+			  },
+			  {
+				"editable" : true,
+				"list" : [
+				  {
+					"body" : "Cette fois, au lieu d'utiliser vos doigts pour tenir les deux fils ensemble, placez-les aléatoirement dans deux prises d'une rangée verticale sur le “breadboard”. La lumière rouge devrait s’allumer!"
+				  },
+				  {
+					"body" : "Ensuite, essayez de brancher les fils sur différentes rangées. Voyez-vous une différence? Ils ne sont plus connectés au même clip, donc la lumière ne s'allume plus."
+				  }
+				],
+				"title" : "Connectez deux fils à l'aide du “breadboard”"
+			  }
+			],
+			"type" : "content activity"
+		  },
+		  "Wire RGB Color Mix" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-15.svg"
+			  },
+			  {
+				"editable" : true,
+				"list" : [
+				  {
+					"body" : "Sortez quatre fils de votre boîte. Placez un fil dans chaque prise de lumière sur le eBrain et une dans la source d'alimentation de 3,3 V."
+				  },
+				  {
+					"body" : "Que se passe-t-il lorsque nous raccordons plusieurs couleurs à une seule rangée sur le “breadboard” en même temps?\n \n À suivre sur la prochaine page..."
+				  }
+				],
+				"title" : "Mélangez les couleurs RGB en utilisant le “breadboard”",
+				"subtitle" : "Voyons ce qui se passe lorsque l’on combine la lumière rouge, verte et bleue de différentes manières!"
+			  }
+			],
+			"comment_copy" : "Notez que la connexion jaune à l'extrême gauche du tableau de bord n'est PAS une lumière jaune. Cette connexion va au capteur de lumière (LS - Light Sensor). Nous en apprendrons d’avantage à ce sujet plus tard.",
+			"type" : "content activity"
+		  },
+		  "Try the following combinations" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-16.svg"
+			  },
+			  {
+				"editable" : true,
+				"body": "Rouge + Vert =\n\nRouge + Bleu =\n\nVert + Bleu =\n\nRouge + Vert + Bleu =",
+				"title" : "Essayez les combinaisons suivantes:",
+				"subtitle" : "Voyons ce qui se passe lorsque l’on combine la lumière rouge, verte et bleue de différentes manières!"
+			  }
+			],
+			"type" : "content activity"
+		  },
+		  "RGB color mixing results" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-17.svg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Le rouge et le vert font le jaune\nLe rouge et le bleu font le Magenta\nLe vert et le bleu font le cyan\nLe rouge, le vert et le bleu font le blanc",
+				"title" : "Résultats du mélange des couleurs RGB",
+				"nerd_alert" : "Ces résultats pourraient vous être un peu surprenants! Mélanger des lumières n'est pas comme mélanger des peintures!"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "button" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-18.svg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Votre eBrain a 4 boutons, chacun avec sa propre prise dans le “patch bay”.\n\n Les boutons sont directement connectés à la batterie, donc vous n'avez pas besoin de vous brancher à la prise 3,3 V.",
+				"title" : "Les boutons de l'eBrain ",
+				"subtitle" : "Lorsque vous appuyez sur un bouton, vous laissez l'électricité circuler dans un circuit complet, envoyant l'énergie à tout ce qui y est attaché."
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "buttons" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-19.svg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Essayons maintenant de brancher un bouton pour allumer et éteindre la lumière sans débrancher nos câbles!",
+				"list" : [
+				  {
+					"body" : "Utilisez un fil “male-to-male” pour connecter la prise “R” et “1” sur le “patch bay”."
+				  },
+				  {
+					"body" : "Maintenez le bouton “S1” enfoncé - La lumière s'allume!"
+				  }
+				],
+				"subtitle" : "Le bouton",
+				"title" : "Allumez la DEL en utilisant un bouton"
+			  }
+			],
+			"type" : "content activity"
+		  },
+		  "summary_one" : {
+			"columns" : [
+			  {
+				"subtitle" : "Vous venez d'apprendre à utiliser trois parties essentielles de votre eBrain.",
+				"title" : "Excellent travail!"
+			  },
+			  {
+				"subtitle" : "Revue",
+				"list" : [
+				  {
+					"body" : "Baie GPIO - Vous avez branché la batterie et utilisé son énergie via la prise 3,3 V du panneau GPIO."
+				  },
+				  {
+					"body" : "Patch bay - Vous avez exploré la DEL RGB et les boutons de la “patch bay”."
+				  },
+				  {
+					"body" : "Breadboard - Vous avez appris à utiliser le “breadboard” et à connecter différents fils ensemble pour créer des nouvelles combinaisons de couleurs!"
+				  }
+				]
+			  }
+			],
+			"type" : "content challenge"
+		  }
+		},
+		{
+			"chapter_three": {
+				"columns": [
+					{
+						"subtitle": "Votre premier robot",
+						"title": " Chapitre 3"
+					}
+				],
+				"type": "title chapter_title"
+			},
+			"chapterthree_materials": {
+				"columns": [
+					{
+						"image": "svg/eBrain-20.svg"
+					},
+					{
+						"title": "Matériaux nécessaires",
+						"subtitle": "Batteries required",
+						"body": "Matériaux:",
+						"list": [
+							{
+								"body": "1x Corps de robot en carton"
+							},
+							{
+								"body": "1x eBrain"
+							},
+							{
+								"body": "1x Support à batteries"
+							},
+							{
+								"body": "2x Moteurs"
+							},
+							{
+								"body": "2x Supports de moteurs"
+							},
+							{
+								"body": "2x Roues"
+							},
+							{
+								"body": "2x Élastiques"
+							},
+							{
+								"body": "1x Châssis"
+							},
+							{
+								"body": "1x Clip \"bulldog\""
+							}
+						],
+						"message": "Keep your workspace clean and organized like a true designer."
+					}
+				],
+				"type": "activity"
+			},
+			"fold_body_1": {
+				"columns": [
+					{
+						"image": "svg/eBrain-21.svg"
+					},
+					{
+						"title": "Pliez le corps de votre robot",
+						"list": [
+							{
+								"body": "Placez le corps en carton de votre robot sur votre espace de travail, côté brillant vers le bas. La face brillante sera l'extérieur du robot et la face mate sera l'intérieur."
+							},
+							{
+								"body": "Do an initial fold of all of the flaps of the eBrain"
+							},
+							{
+								"body": "Fold the \"wings\" (3 and 4) so the tabs pop through the bottom"
+							},
+							{
+								"body": "Push in the front of the robot, pushing the tabs into the \"wings\""
+							},
+							{
+								"body": "Push in the back of the robot, pushing the tabs into the \"wings\""
+							},
+							{
+								"body": "Repeat the previous two steps, but remove the film from the double-sided tape."
+							}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"prepare_wheels_skeleton": {
+				"columns": [
+					{
+						"image": "svg/eBrain-23.svg"
+					},
+					{
+						"title": "Préparer les roues et le squelette",
+						"list": [
+							{
+								"body": "Placez les bandes élastiques le long du bord extérieur des roues. Les élastiques ajoutent de la friction et empêchent vos roues de glisser lorsque le robot est en mouvement."
+							},
+							{
+								"body": "Assemblez le squelette en fixant les deux supports de moteurs au châssis. Assurez-vous que les ouvertures sur ceux-ci sont bien alignées!"
+							}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"drop_in_skeleton": {
+				"columns": [
+					{
+						"image": "svg/eBrain-24.svg"
+					},
+					{
+						"title": "Insérer le squelette du robot",
+						"list": [
+							{
+								"body": "Insérez le squelette dans le corps du robot et alignez les trous de supports du moteur."
+							},
+							{
+								"body": "Poussez les douilles à travers le carton."
+							}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"attach_wheels": {
+				"columns": [
+					{
+						"image": "svg/eBrain-25-add-wheel-redone.svg"
+					},
+					{
+						"title": "Fixer les moteurs et les roues",
+						"list": [
+							{
+								"body": "Fixez les moteurs en enfilant le fil de l'extérieur à l'intérieur du robot. Alignez les trous de fixation sur le moteur avec les douilles du squelette de manière à ce qu'il soit “flush” avec le côté du robot. Assurez-vous que l'essieu du moteur soit tourné vers l'extérieur du robot!"
+							},
+							{
+								"body": "Insérez le moyeu de la roue dans l'essieu du moteur. Il faut parfois appuyer fort!"
+							}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"hook_up": {
+				"columns": [
+					{
+						"image": "svg/eBrain-26.svg"
+					},
+					{
+						"title": "Connecter le cerveau électronique",
+						"list": [
+							{
+								"body": "Branchez les moteurs au eBrain. Chaque moteur se connecte soit au côté gauche ou au côté droit lorsqu'il est vu de face. Vérifiez le schéma pour vous assurer que vous ne les branchez pas à l'envers."
+							},
+							{
+								"body": "Branchez le support à batteries. La prise pour les brancher se trouve à l'arrière du eBrain."
+							},
+							{
+								"body": "Placez la batterie à l'intérieur du robot, derrière le châssis vers l'arrière. En plaçant le bloc-piles ici, on équilibre le poids du robot."
+							}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"clip": {
+				"columns": [
+					{
+						"image": "svg/eBrain-27-redone.svg"
+					},
+					{
+						"title": "Attach the clip",
+						"body": "Fixez le \"clip secret\", c'est-à-dire le \"clip bulldog\" en arrière du robot. Veuillez suivre le schéma ci-contre pour l'insérer correctement!"
+					}
+				],
+				"type": "activity"
+			}
+		},
+		{
+		  "chapter_four" : {
+			"columns" : [
+			  {
+				"subtitle" : "Programmer et faire bouger son robot",
+				"title" : " Chapitre 4"
+			  }
+			],
+			"type" : "title chapter_title"
+		  },
+		  "programming_intro": {
+			"columns": [
+				{
+					"image": "svg/6B3068EE.jpg"
+				},
+				{
+					"subtitle": "Un programme est un processus ou un ensemble d'instructions qui est suivi pour résoudre un problème.",
+					"body": "Les programmes sont comme des instructions très spécifiques placées dans une liste. L'ordinateur parcourt cette liste un élément à la fois en exécutant chaque instruction. Pourriez-vous dresser une liste des instructions qui expliquent comment se brosser les dents ?\n\nCes instructions sont converties en un code que les ordinateurs peuvent lire et exécuter.\n\nVous pouvez contrôler l'eBrain de votre robot à l'aide de blocs de code. Voyons comment cela fonctionne!"
+				}
+			],
+			"type" : "content basics"
+		  },
+		  "connecting" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-29.svg",
+				"troubleshooting" : "Vous ne serez pas connectés à internet, seulement au kit."
+			  },
+			  {
+				"editable" : true,
+				"list" : [
+				  {
+					"body" : "Allumez votre kit."
+				  },
+				  {
+					"body" : "Cliquez sur l'icône wifi de votre ordinateur et cherchez votre robot dans la liste. Sélectionnez-le pour vous connecter au réseau wifi de votre kit."
+				  }
+				],
+				"message" : "Vérifiez le code wifi écrit sur votre eBrain pour vous assurez que vous vous connectez au bon réseau.",
+				"subtitle" : "Pour pouvoir contrôler votre robot, vous devez vous connecter à votre eBrain",
+				"title" : "Connectez-vous à votre eBrain"
+			  }
+			],
+			"type" : "content reference"
+		  },
+		  "connecting_snap" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-30.svg"
+			  },
+			  {
+				"editable" : true,
+				"body" : "Vous devriez déjà avoir téléchargé le dossier \"Robot in a Can Toolkit\" sur:\n\nhttp://Build.RobotinaCan.com.\n\nAussi dans ce dossier, trouvez un sous-dossier intitulé \"eBrain Snap\". Localisez et ouvrez Snap.html en utilisant Google Chrome.",
+				"message" : "Make sure the folder has been unzipped/decompressed before attempting to open Snap!.html",
+				"title" : "Lancez Snap!, votre outil de programmation"
+			  }
+			],
+			"type" : "content reference"
+		  },
+		  "connecting_snap_II" : {
+			"columns" : [
+			  {
+				"image" : "fr_connect_block.png"
+			  },
+			  {
+				"body" : "Prenez le bloc <span class='robot_section'>Se connecter au eBrain</span>, et cliquez sur son menu déroulant pour sélectionner WiFi. Ensuite, cliquez sur le bloc. Vous devrez être connectés à votre eBrain!",
+				"troubleshooting" : "Assurez-vous d'être connectés au réseau WiFi de votre robot.",
+				"title" : "Connectez-vous à votre robot dans Snap!"
+			  }
+			],
+			"type" : "content reference"
+		  },
+		  "how_to_snap" : {
+			"columns" : [
+			  {
+				"image" : "fr-snap.png"
+			  },
+			  {
+				"body" : "Snap est un outil de programmation visuel. Il vous permet de créer des programmes en faisant glisser des blocs d'instructions et en les regroupant sur la zone de script. Dans les prochaines pages, nous allons passer en revue quelques domaines importants.",
+				"troubleshooting" : "Check for the green ‘Connected’ status at the top right if the kit is not properly connected refresh the connection. Make sure you are connected to the WiFi of your Robot In A Can.",
+				"title" : "Introduction à Snap!"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "how_to_snap_II" : {
+			"columns" : [
+			  {
+				"image" : "svg/fr_snapII.svg"
+			  },
+			  {
+				"body" : "1 - Barre d'outils: Appuyez sur le drapeau vert pour lancer votre programme et sur le bouton rouge pour l'arrêter.\n\n 2 - Palette: C'est ici que vous trouverez vos blocs de commande. Ils sont organisés par fonction et par couleur.\n\n3 - Zone de script: Faites glisser les blocs de la palette vers la zone de script et assemblez-les pour créer une liste de commandes."
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "how_to_snap_III" : {
+			"columns" : [
+			  {
+				"image" : "svg/fr_snapIII.svg"
+			  },
+			  {
+				"body" : "4 - Scène: La Scène est l’endroit où vous pouvez ajouter des éléments visuels à vos programmes. Par exemple, si vous voulez faire un jeu, ce serait sur la scène que vous verriez et joueriez au jeu. \n\n5 - Contrôle des sprites: Les sprites sont des objets visuels sur le scène. Dans ce cas-ci, on parle du petit triangle en forme de flèche sur la scène. Imaginez que vous construisez un jeu. Chaque personnage serait un sprite, mais également, chaque pièce, ennemi, et objet serait aussi d'autres sprites. Dans le contrôle des sprites: vous pouvez fabriquer de nouveaux sprites et contrôler chaque sprite que vous avez fabriqué. Souvenez-vous que tout le code que vous mettez dans la zone de script, ainsi que les sons et les costumes ne s'appliquent qu'au sprite qui est actuellement sélectionné!"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "first_program_1": {
+			"columns": [
+				{
+					"image": "fr_square_program.png"
+				},
+				{
+					"title": "Créez votre premier programme",
+					"body": "1. Allez dans la section <span class='control_section'>Contrôles</span> de la palette (orange). Les blocs de contrôle contrôlent l'ordre dans lequel l'ordinateur interprète les instructions.\n\nChoisissez le bloc <span class='control_section'>Quand le drapeau vert est pressé</span> et le bloc <span class='control_section'>répéter</span> en les faisant glisser un par un sur la zone de script.\n\nModifiez les paramètres du bloc de répétition à \"4\"."
+				}
+			],
+			"type": "content activity"
+		},
+		"first_program_2": {
+			"columns": [
+				{
+					"body": "2. Passez ensuite à la section <span class='motion_section'>Mouvement</span> (en bleu). Ces blocs contrôlent la flèche sur la scène. Comme nous l’avons mentionné plus tôt, cette flèche est appelée un sprite. Voyez-le comme un acteur sur la scène.\n\n Choisissez le bloc de <span class='motion_section'>avancer de 10 pas</span> et le <span class='motion_section'>tourner de 15 degrés</span> et faites-les glisser dans la zone de script.\n\n Changez ces valeurs pour 100 pas et 90 degrés."
+				},
+				{
+					"body": "3. Ouvrez la section <span class='pen_section'>Stylo</span> en vert. Cette section permet au sprite de dessiner. Prenez le bloc <span class='pen_section'>stylo en position d'écriture</span> et faites-le glisser jusqu'à la zone de script. Placez vos blocs comme dans l’exemple de code ci-dessus.\n\n4. Cliquez sur le bouton avec le drapeau vert pour lancer le programme. Bon travail! Vous devriez maintenant voir un carré dessiné sur la scène."
+				}
+			],
+			"type": "content activity"
+		},
+		"robot_move_square": {
+			"columns": [
+				{
+					"image": "fr_robot_square.png"
+				},
+				{
+					"title": "Programmer votre robot",
+					"body": "Écrivons un autre programme pour dessiner un carré. Au lieu de demander à votre sprite de le dessiner virtuellement, nous allons faire bouger votre robot!\n\nLa dernière fois, nous avons utilisé le contrôle des blocs de <span class='motion_section'>mouvement</span> bleus pour faire bouger le sprite. Cette fois, nous allons utiliser les blocs rouges <span class='robot_section'>Robot</span> pour contrôler votre robot.\n\nReproduisez l'exemple de code sur cette page et quand vous êtes prêt, cliquez sur le bouton du drapeau vert pour lancer le programme."
+				}
+			],
+			"type": "content activity"
+		},
+		"draw_intro": {
+			"columns": [
+				{
+					"image": "svg/eBrain-31.svg"
+				},
+				{
+					"title": "Dessiner avec le robot",
+					"body": "Placez un marqueur ou un stylo à travers le trou au centre de votre robot, en veillant à ce qu'il passe au travers pour toucher le papier en dessous.\n\nPlus votre robot est bien assemblé, plus ses lignes sont précises. Lorsque le stylo ou le robot est sur un angle vous risquez d'avoir des coins gondolés sur vos formes.\n\n<strong>Voici quelques astuces:</strong>",
+					"list": [
+						{"body": "Vérifiez que le fond de votre robot est parallèle au sol ou à la table. Vous pouvez ajuster cela en utilisant la clip “bulldog” à l'arrière."},
+						{"body": "Gardez les roues droites et parallèles à la page pour que le robot ne s'affaisse pas."},
+						{"body": "Ne gardez pas votre marqueur trop longtemps au même endroit, ou elle perdra de l'encre."}
+					]
+				}
+			],
+			"type": "content activity"
+		},
+		"draw_square": {
+			"columns": [
+				{
+					"image": "svg/fr-eBrain-32-v2.svg"
+				},
+				{
+					"title": "Dessiner un carré",
+					"body": "Comme vous pouvez le voir lorsque vous dessinez un carré, l'angle extérieur de chaque coin est le même que l'angle intérieur (90 degrés).\n\nPour dessiner un carré, nous allons avancer et tourner de 90 degrés 4 fois. Vous pouvez écrire le code sans utiliser le bloc de répétition."
+				}
+			],
+			"type": "content activity"
+		},
+		"draw_triangle": {
+			"columns": [
+				{
+					"image": "svg/fr-eBrain-33-v2.svg"
+				},
+				{
+					"title": "Dessiner un triangle",
+					"body": "Lorsque nous dessinons un triangle, nous essayons de dessiner une forme fermée avec 3 coins. La règle de calcul des angles dans les triangles nous dit que tous les angles internes doivent être égaux à 180 degrés.\n\nDonc, angle A + B + C = 180. Si le triangle est symétrique de tous les côtés, les angles doivent tous être égaux à 60 degrés. Donc, angle A=60 - B=60 - C=60"
+				}
+			],
+			"type": "content activity"
+		},
+		"draw_hexagon": {
+			"columns": [
+				{
+					"image": "svg/fr-eBrain-34-v2.svg"
+				},
+				{
+					"title": "Dessinez un hexagone",
+					"body": "Maintenant, la partie difficile.\n\nSi vous bougez puis tournez le robot de 60 degrés 3 fois, vous obtenez une forme comme celle-ci.\n\nLe robot avance en ligne droite, donc si nous tournons à partir de l'axe sur lequel le robot est en train de se déplacer, nous traçons notre forme à partir des <strong>angles extérieurs</strong>.\n\nDonc c’est pour cela que, pour dessiner un triangle, nous devons tourner de 120 degrés au lieu de juste 60.\n\nEssayez-le vous-même!"
+				}
+			],
+			"type": "content activity"
+		},
+		"gpio" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-07.svg"
+			  },
+			  {
+				"body" : "Entrées/sorties à usage général (en anglais se dit “General Purpose Input Output”, d’où vient l'abréviation “GPIO”)\n\nL’endroit le plus important! Votre ordinateur parle à votre carte par le biais des connexions électriques de la baie GPIO.\n\nCette rangée de trous est presque comme une ligne téléphonique directe vers l'ordinateur. Grâce à ces connexions, l'ordinateur eBrain peut parler (sortir) et écouter (entrer) vers d'autres appareils électroniques. Nous apprendrons à utiliser ces connexions plus tard!",
+				"title" : "Baie GPIO"
+			  }
+			],
+			"type" : "content reference"
+		  },
+		  "gpio_II" : {
+			"columns" : [
+			  {
+				"image" : "inputout.png"
+			  },
+			  {
+				"body" : "Si moi je parle et tu écoutes, de ma perspective parler est une sortie, mais de la tienne écouter est une entrée; on doit <strong>choisir</strong> un des deux. Quand on pense d'entrées et de sorties, on prend la perspective d'où que le traitement des données se passe. Dans ce cas, cet endroit est l'ordinateur.",
+				"title" : "GPIO (Entrées/sorties à usage général)"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "blink" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-LED.svg",
+				"message" : "Remarquez qu'on est connecté à la broche 4 du GPIO - et le code utilise la même broche. Cependant, sachez que toutes les broches fonctionnent comme entrées et sorties!"
+			  },
+			  {
+				"image" : "fr_blink.png",
+				"body" : "Dans ce code, on a une boucle qui répète les instructions qu'on place à l'intérieur. Les blocs sont codés à l'aide de couleurs et sont retrouvés dans la section de la 'Palette' avec la couleur qui correspond. Ici on utilise des blocs jaunes de la palette \"Contrôles\" et des blocs noirs de la palette \"eBrain\".",
+				"title" : "Faire clignoter la DEL"
+			  }
+			],
+			"type" : "content activity"
+		  },
+		  "output" : {
+			"columns" : [
+			  {
+				"image" : "output.png"
+			  },
+			  {
+				"body" : "Ceci est un exemple d'une sortie, étant donné qu'on prend la perspective de l'ordinateur (et non celui de la DEL).\n\nL'ordinateur envoie un signal à la lumière.",
+				"title" : "Sortie"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "button" : {
+			"columns" : [
+			  {
+				"image" : "svg/eBrain-button.svg",
+				"message" : "Ce code est dans une boucle qui va répéter indéfiniment parce qu'il doit vérifier constamment si le bouton est enfoncé. Ceci est ce qu'on appelle de \"l'attente active\". Remarquez aussi que nous sommes encore connectés à la broche 4 du GPIO - ces contacts fonctionnent comme entrés et sorties!"
+			  },
+			  {
+				"image" : "fr_inputbutton.png",
+				"body" : "Le bloc \"lire\" lit de la broche 4 du GPIO. Quand le bouton est enfoncé il sera égal à 1, quand il ne l'est pas il sera égal à 0. Voici deux manières de faire la même chose.",
+				"title" : "Utiliser un bouton"
+			  }
+			],
+			"type" : "content reference"
+		  },
+		  "input" : {
+			"columns" : [
+			  {
+				"image" : "input.png",
+				"fun_fact" : "Le logique du eBrain change à 3.3v, ce qui veut dire que quand il reçoit 3.3v il compte cela comme un 1 (Vrai / allumé / etc). D'autres appareils utilisent des tensions de commutations différents."
+			  },
+			  {
+				"body" : "Cette fois, on envoie 3.3v d'électricité à la broche 4. Rappelez-vous quand nous avons connecté le bouton directement à la DEL?\n\nQuand le bouton est enfoncé, il envoie 3.3v de la \"patch bay\". Le contact GPIO écoute pour du voltage, et quand il en reçoit il sait!",
+				"message" : "Que pouvez-vous faire d'autre quand le bouton est enfoncé? Expérimentez dans Snap! et voyez ce qui est possible!",
+				"title" : "Entrée"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "binary" : {
+			"columns" : [
+			  {
+				"image" : "binary.png",
+				"fun_fact" : "Ceci est une onde carrée. Il n'a que des 1s et des 0s, avec rien entre les deux, ce qui lui donne sa forme carrée. Ce genre d'onde est utilisé pour visualiser des signaux de l'électronique numérique, comme des ordinateurs.",
+				"message" : "Si j'envoie deux signaux ALLUMÉ de suite, comment l'ordinateur peut-il décoder que c'est deux 1s? Le moment où chaque signal est envoyé joue un rôle clé. Ces signaux sont comme de la musique, parce qu'ils ont un rythme, ce qu'on appelle la fréquence d'horloge. Cette fréquence est d'habitude à un milliard de fois par seconde!"
+			  },
+			  {
+				"image" : "binaryII.png",
+				"body" : "Les ordinateurs ont seulement deux mots dans leur langue: 1 et 0. Avec ces deux mots ils peuvent dire tellement de choses! Ceci est parce qu'ils utilisent des combinaisons de 1s et 0s pour faire des codes. Les ordinateurs sont des appareils électromagnétiques qui utilisent l'électricité pour représenter ces 0s et 1s. 0 est éteint et 1 est allumé (3.3v).",
+				"title" : "La vrai langue des ordinateurs: le binaire"
+			  }
+			],
+			"type" : "content basics"
+		  },
+		  "challenge_three" : {
+			"columns" : [
+			  {
+				"body" : "Le sprite est la petite flèche grise sur la scène de Snap!. Il peut être contrôlé avec les blocs bleus de <span class='motion_section'>mouvement</span> de la palette.",
+				"message" : "Utilisez au moins deux boutons pour contrôler le mouvement du sprite à l'écran!",
+				"title" : "Défi!"
+			  }
+			],
+			"type" : "content activity"
+		  }
+		},
+		{
+			"chapter_five" : {
+				"columns" : [
+				  {
+					"subtitle" : "Utiliser des boutons",
+					"title" : " Chapitre 5"
+				  }
+				],
+				"type" : "title chapter_title"
+			},
+			"no_signal_pin": {
+				"columns": [
+					{
+						"image": "fr_read_gpio4.png"
+					},
+					{
+						"title": "Que se passera-t-il?",
+						"body": "What will happen when I run this program with nothing plugged in? What will happen when a wire is plugged between pin 4 and 3.3v, or GND? Will the pin say it is High (1) or Low (0)?"
+					}
+				],
+				"type": "content basics"
+			},
+			"manual button": {
+				"columns": [
+					{
+						"image": "svg/fr-eBrain-manual-button.svg"
+					},
+					{
+						"title": "Try it out!",
+						"body": "Run this program. Then, get a jumper wire, and plug it into 3.3v and then 0v. What happens?"
+					}
+				],
+				"type": "content activity"
+			},
+			"no_response": {
+				"columns": [
+					{
+						"image": "svg/fr_someone_typing.svg"
+					},
+					{
+						"body": "When we think of digital signals, they are always either on - 1 or off - 0. However, there is, sort of, a third option: no signal. Nothing plugged into the pin. However, the eBrain still needs to turn that into a 1 or 0 signal.\n\nWhat does it do?\n\nIn general, we can't predict what it will output; however, in the eBrain's case, it often will stay 'stuck' on the last input it saw. This is called a <strong>floating pin</strong> and we need to avoid it.\n\nWe need a clean signal."
+					}
+				],
+				"type": "content basics"
+			}
+		}
+	  ]
+	}
+  }

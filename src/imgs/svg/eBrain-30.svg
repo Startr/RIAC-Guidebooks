@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="1210px"
+   height="1178px"
+   viewBox="0 0 1210 1178"
+   enable-background="new 0 0 1210 1178"
+   xml:space="preserve"
+   sodipodi:docname="eBrain-30.svg"
+   inkscape:version="1.2 (56b05e47e7, 2022-06-09, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs371"><linearGradient
+     id="a"
+     x1="6.6999998"
+     x2="93.290001"
+     y1="31.25"
+     y2="31.25"
+     gradientUnits="userSpaceOnUse"
+     gradientTransform="matrix(3.0342232,0,0,3.0342232,488.71714,809.0051)"><stop
+       offset="0"
+       stop-color="#d93025"
+       id="stop877" /><stop
+       offset="1"
+       stop-color="#ea4335"
+       id="stop879" /></linearGradient><linearGradient
+     id="b"
+     x1="55.41"
+     x2="12.11"
+     y1="96.870003"
+     y2="21.870001"
+     gradientUnits="userSpaceOnUse"
+     gradientTransform="matrix(3.0342232,0,0,3.0342232,488.71714,809.0051)"><stop
+       offset="0"
+       stop-color="#1e8e3e"
+       id="stop867" /><stop
+       offset="1"
+       stop-color="#34a853"
+       id="stop869" /></linearGradient><linearGradient
+     id="c"
+     x1="42.700001"
+     x2="86"
+     y1="100"
+     y2="25.129999"
+     gradientUnits="userSpaceOnUse"
+     gradientTransform="matrix(3.0342232,0,0,3.0342232,488.71714,809.0051)"><stop
+       offset="0"
+       stop-color="#fcc934"
+       id="stop872" /><stop
+       offset="1"
+       stop-color="#fbbc04"
+       id="stop874" /></linearGradient></defs><sodipodi:namedview
+   id="namedview369"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="0.80135823"
+   inkscape:cx="696.3178"
+   inkscape:cy="457.34852"
+   inkscape:window-width="1608"
+   inkscape:window-height="986"
+   inkscape:window-x="72"
+   inkscape:window-y="339"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g8">
+	<defs
+   id="defs3">
+		<rect
+   id="SVGID_1_"
+   y="0.001"
+   width="1210"
+   height="1177.999" />
+	</defs>
+	<clipPath
+   id="SVGID_2_">
+		<use
+   xlink:href="#SVGID_1_"
+   overflow="visible"
+   id="use5" />
+	</clipPath>
+</g>
+<g
+   id="g22">
+	<defs
+   id="defs11">
+		<rect
+   id="SVGID_3_"
+   width="1210"
+   height="1178" />
+	</defs>
+	<clipPath
+   id="SVGID_4_">
+		<use
+   xlink:href="#SVGID_3_"
+   overflow="visible"
+   id="use13" />
+	</clipPath>
+	<path
+   clip-path="url(#SVGID_4_)"
+   fill="none"
+   stroke="#06EEF4"
+   stroke-width="9.151"
+   stroke-miterlimit="10"
+   d="M645.953,710.212   c-2.012,7.339-3.644,14.768-4.869,22.253"
+   id="path16" />
+	<path
+   clip-path="url(#SVGID_4_)"
+   fill="#06EEF4"
+   d="M639.736,787.68c-8.665-26.329-23.902-59.164-40.57-79.788l42.903,17.355   l44.069-14.105C667.979,730.463,650.333,762.07,639.736,787.68"
+   id="path18" />
+	
+		<line
+   clip-path="url(#SVGID_4_)"
+   fill="none"
+   stroke="#06EEF4"
+   stroke-width="20.59"
+   stroke-miterlimit="10"
+   x1="642.475"
+   y1="533.836"
+   x2="642.475"
+   y2="722.708"
+   id="line20" />
+</g>
+<text
+   transform="translate(561.543,480.1279)"
+   id="text34"><tspan
+     x="0"
+     y="0"
+     fill="#2977bc"
+     font-family="Nunito-ExtraBold"
+     font-size="54.472px"
+     letter-spacing="-1"
+     id="tspan24">Snap.html</tspan></text>
+<text
+   transform="translate(236.3452,193.7144)"
+   id="text54"><tspan
+     x="0"
+     y="0"
+     fill="#b2b2b2"
+     font-family="Nunito-ExtraBold"
+     font-size="54.472px"
+     letter-spacing="-1"
+     id="tspan36">Robot in a Can</tspan></text>
+<g
+   id="g68">
+	<defs
+   id="defs57">
+		<rect
+   id="SVGID_5_"
+   width="1210"
+   height="1178" />
+	</defs>
+	<clipPath
+   id="SVGID_6_">
+		<use
+   xlink:href="#SVGID_5_"
+   overflow="visible"
+   id="use59" />
+	</clipPath>
+	
+		<rect
+   x="390.366"
+   y="381.44"
+   clip-path="url(#SVGID_6_)"
+   fill="none"
+   stroke="#06EEF4"
+   stroke-width="9.389"
+   stroke-miterlimit="10"
+   width="519.872"
+   height="152.396"
+   id="rect62" />
+	<path
+   clip-path="url(#SVGID_6_)"
+   fill="#2C77BC"
+   d="M508.064,420.569l23.345,23.345v38.909c0,4.28-3.502,7.782-7.782,7.782h-42.838   c-4.28,0-7.743-3.502-7.743-7.782l0.039-54.472c0-4.28,3.463-7.782,7.743-7.782H508.064z M504.173,447.805h21.399l-21.399-21.399   V447.805z"
+   id="path64" />
+	<path
+   clip-path="url(#SVGID_6_)"
+   fill="#B2B2B2"
+   d="M207.452,143.604c-8.839-0.002-17.678,0.022-26.517-0.04   c-0.816-0.005-1.813-0.342-2.406-0.879c-1.909-1.724-3.668-3.613-5.484-5.44c-1.216-1.224-2.529-1.902-4.409-1.866   c-6.797,0.13-13.598,0.046-20.397,0.044c-2.303,0-3.077,0.779-3.077,3.112c-0.002,17.134-0.001,34.268,0,51.402   c0,2.438,0.735,3.185,3.136,3.186c9.926,0.002,19.854,0.001,29.781,0.001c10.018,0,20.035,0.001,30.053-0.001   c2.355,0,3.149-0.807,3.149-3.198c0.002-14.188,0.001-28.375,0.001-42.563C211.282,144.436,210.436,143.604,207.452,143.604"
+   id="path66" />
+</g>
+<text
+   transform="translate(378.9951,330.5557)"
+   id="text82"><tspan
+     x="0"
+     y="0"
+     fill="#b2b2b2"
+     font-family="Nunito-ExtraBold"
+     font-size="54.472px"
+     letter-spacing="-1"
+     id="tspan70">eBrain Snap</tspan></text>
+<g
+   id="g100">
+	<defs
+   id="defs85">
+		<rect
+   id="SVGID_7_"
+   width="1210"
+   height="1178" />
+	</defs>
+	<clipPath
+   id="SVGID_8_">
+		<use
+   xlink:href="#SVGID_7_"
+   overflow="visible"
+   id="use87" />
+	</clipPath>
+	<path
+   clip-path="url(#SVGID_8_)"
+   fill="#B2B2B2"
+   d="M350.117,280.459c-8.839-0.002-17.678,0.022-26.517-0.039   c-0.816-0.006-1.813-0.343-2.406-0.88c-1.909-1.724-3.668-3.613-5.484-5.44c-1.216-1.224-2.529-1.901-4.409-1.866   c-6.797,0.13-13.598,0.046-20.397,0.045c-2.303-0.001-3.077,0.778-3.077,3.111c-0.002,17.134-0.001,34.268,0,51.402   c0,2.438,0.735,3.186,3.136,3.186c9.926,0.002,19.854,0.001,29.781,0.001c10.018,0,20.035,0.001,30.053-0.001   c2.355,0,3.149-0.807,3.149-3.197c0.002-14.188,0.001-28.376,0.001-42.564C353.947,281.292,353.101,280.459,350.117,280.459"
+   id="path90" />
+	<polyline
+   clip-path="url(#SVGID_8_)"
+   fill="none"
+   stroke="#B2B2B2"
+   stroke-width="2.347"
+   stroke-miterlimit="10"
+   points="   178.222,206.899 178.222,301.106 251.722,301.106  "
+   id="polyline92" />
+	<path
+   clip-path="url(#SVGID_8_)"
+   fill="#B2B2B2"
+   d="M265.888,301.106c-6.666,2.473-14.936,6.693-20.063,11.163l4.038-11.163   l-4.038-11.161C250.952,294.415,259.222,298.635,265.888,301.106"
+   id="path94" />
+	<polyline
+   clip-path="url(#SVGID_8_)"
+   fill="none"
+   stroke="#B2B2B2"
+   stroke-width="2.347"
+   stroke-miterlimit="10"
+   points="   320.886,342.554 320.886,436.761 350.553,436.761  "
+   id="polyline96" />
+	<path
+   clip-path="url(#SVGID_8_)"
+   fill="#B2B2B2"
+   d="M364.719,436.761c-6.666,2.474-14.936,6.693-20.062,11.164l4.037-11.164   l-4.037-11.161C349.783,430.07,358.053,434.29,364.719,436.761"
+   id="path98" />
+</g>
+<rect
+   fill="none"
+   width="1210"
+   height="1178"
+   id="rect102" />
+
+<path
+   fill="url(#a)"
+   d="m 771.77998,884.86072 a 151.71116,151.71116 0 0 0 -262.76387,0 l 9.10267,163.84808 z"
+   id="path882"
+   style="fill:url(#a);stroke-width:3.03422" /><path
+   fill="url(#b)"
+   d="M 574.73738,998.64409 509.04645,884.86072 a 151.71116,151.71116 0 0 0 131.38183,227.56678 l 148.6771,-151.7112 z"
+   id="path884"
+   style="fill:url(#b);stroke-width:3.03422" /><path
+   fill="url(#c)"
+   d="m 706.11928,998.64409 -65.691,113.78341 a 151.71116,151.71116 0 0 0 131.3517,-227.56678 h -131.3517 z"
+   id="path886"
+   style="fill:url(#c);stroke-width:3.03422" /><path
+   fill="#ffffff"
+   d="m 640.42828,1036.5719 a 75.8556,75.8556 0 1 0 0,-151.71118 75.8556,75.8556 0 0 0 0,151.71118 z"
+   id="path888"
+   style="stroke-width:3.03422" /><path
+   fill="#1a73e8"
+   d="m 640.42828,1020.7939 a 60.07762,60.07762 0 1 0 0,-120.15522 60.07762,60.07762 0 0 0 0,120.15522 z"
+   id="path890"
+   style="stroke-width:3.03422" /></svg>

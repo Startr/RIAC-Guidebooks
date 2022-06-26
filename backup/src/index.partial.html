@@ -1,0 +1,93 @@
+<ul id="v-for-object">
+  <li v-for="(value,key) in object">
+    {{key}} : <span v-if="key !== 'detail'">{{ value }}</span>
+    <ul v-if="key === 'detail'">
+      <li v-for="(detail_value,detail_key) in value">
+        {{detail_key}} :: {{ detail_value }}
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div class="section">
+  <div id="pages" class="main">
+    <section id="page1" class="cover">
+      <div class="container">
+        <div class="columns">
+          <div class="column has-text-centered">
+            <h1 class="">Robot in a Can</h1>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="page1" class="cover">
+      <div class="container">
+        <div class="columns">
+          <div class="column has-text-centered">
+            <h1 class="">Robot in a Can</h1>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="page2">
+      <div class="columns">
+        <div class="column">
+          <h1>Designed for exploration
+          </h1>
+          <h2>Quick to set up and easy to use, start exploring the world of technology today!</h2>
+        </div>
+        <div class="column">
+          <p>This workbook contains a series of exercises that will get you familiar the the fundamentals of electronics and code.</p>
+          <p>
+            It’ll help you get on your way to adventuring and building robots!</p>
+          <p>
+            You can follow the suggested curriculum or skip ahead if you prefer.</p>
+          <h3>Fasten your space seatbelts and lets launch!</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="page3">
+      <h1>Page 3</h1>
+    </section>
+
+    <section id="page4">
+      <h1>Page 4</h1>
+    </section>
+
+    <section id="page5">
+      <h1>Page 5</h1>
+    </section>
+
+    <section id="page6">
+      <h1>Page 6</h1>
+    </section>
+    <section id="page7">
+      <h1>Page 7</h1>
+    </section>
+    <section id="page8">
+      <h1>Page 8</h1>
+    </section>
+    <section id="page9" class="cover">
+      <div class="container">
+        <div class="columns">
+          <div class="column has-text-centered">
+            <h1>That’s it for now!<br> Thanks for now, and don’t forget to check back<br> at learn.robotinacan.com for new materials!</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <ul id="pagination">
+    <li><a href="#page1"></a></li>
+    <li><a href="#page2"></a></li>
+    <li><a href="#page3"></a></li>
+    <li><a href="#page4"></a></li>
+    <li><a href="#page5"></a></li>
+  </ul>
+</div>

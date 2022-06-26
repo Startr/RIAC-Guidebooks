@@ -1,0 +1,67 @@
+<div class="section workspace">
+  <div id="app">
+    <div class="language-selector" style="position: fixed; top:10px; left:10px;
+    z-index: 100;">
+      <div class="language-selector__item" v-for="language in languages" :key="language.id"
+        @click="setLanguage(language.id)">
+        <div class="language-selector__item__flag" :class="language.id"></div>
+        <div class="language-selector__item__name">{{ language.name }}</div>
+      </div>
+    </div>
+    <div id="pages" class="main">
+      <div id="v-for-chapters">
+        <div v-for="(chapter,chapter_number) in chapters">
+          <div :id="'chapter_' + chapter_number">
+
+            <div v-for="(page,index) in chapter" class="paper">
+
+              <section :id="index" :class="page.type"
+                :style="[ page.background_image ? { backgroundImage : 'url(\'./imgs/' + page.background_image + '\')' }: false ]">
+                <div v-if="page.type.includes('basics')" class="page_type"><img src="imgs/svg/basic_type.svg" /> 
+                </div>
+                <div v-if="page.type.includes('activity')" class="page_type"><img src="imgs/svg/activity_type.svg" />
+                </div>
+                <div v-if="page.type.includes('reference')" class="page_type"><img src="imgs/svg/reference_type.svg" />
+                </div>
+                <div class="branding"><img src="imgs/svg/Robotype.svg" /></div>
+                <div class="container">
+                  <div class="columns">
+                    <div v-for="column in page.columns" class="column" :style="column.style">
+                      <h1 v-if="column.title">
+                        <span :contenteditable="column.editable" @click="edit(column)" v-on:blur="save(column, $event)">
+                          {{ column.title}}
+                        </span>
+                      </h1>
+
+                      <h2 v-if="column.subtitle" class="coversubtitle"> {{ column.subtitle }} </h2>
+                      <img v-if="column.logo" :src="'./imgs/' + column.logo" class="logo">
+                      <img v-if="column.image" :src="'./imgs/' + column.image">
+                      <p v-if="column.body" v-html="column.body"></p>
+                      <ol v-if="column.list">
+                        <li v-for="item in column.list" v-html="item.body">
+                        </li>
+                      </ol>
+                      <h4 v-if="column.message"> {{column.message }} </h4>
+                      <p v-if="column.fun_fact"> {{translatedStrings.funFact}} {{column.fun_fact }} </p>
+                      <p v-if="column.troubleshooting"> {{translatedStrings.troubleshooting}} {{column.troubleshooting }} </p>
+                      <p v-if="column.nerd_alert"> {{translatedStrings.didYouKnow}} {{column.nerd_alert }} </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ul id="pagination">
+    <li><a href="#page1"></a></li>
+    <li><a href="#page2"></a></li>
+    <li><a href="#page3"></a></li>
+    <li><a href="#page4"></a></li>
+    <li><a href="#page5"></a></li>
+  </ul>
+</div>

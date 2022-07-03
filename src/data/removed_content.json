@@ -142,6 +142,52 @@
               ],
               "type" : "content activity"
             }
+          },
+          {
+            "chapter_five" : {
+              "columns" : [
+                {
+                "subtitle" : "Using Buttons",
+                "title" : " Chapter 5"
+                }
+              ],
+              "type" : "title chapter_title"
+            },
+            "no_signal_pin": {
+              "columns": [
+                {
+                  "image": "en_read_gpio4.png"
+                },
+                {
+                  "title": "What Will Happen?",
+                  "body": "What will happen when I run this program with nothing plugged in? What will happen when a wire is plugged between pin 4 and 3.3v, or GND? Will the pin say it is High (1) or Low (0)?"
+                }
+              ],
+              "type": "content basics"
+            },
+            "manual button": {
+              "columns": [
+                {
+                  "image": "svg/en-eBrain-manual-button.svg"
+                },
+                {
+                  "title": "Try it out!",
+                  "body": "Run this program. Then, get a jumper wire, and plug it into 3.3v and then 0v. What happens?"
+                }
+              ],
+              "type": "content activity"
+            },
+            "no_response": {
+              "columns": [
+                {
+                  "image": "svg/en_someone_typing.svg"
+                },
+                {
+                  "body": "When we think of digital signals, they are always either on - 1 or off - 0. However, there is, sort of, a third option: no signal. Nothing plugged into the pin. However, the eBrain still needs to turn that into a 1 or 0 signal.\n\nWhat does it do?\n\nIn general, we can't predict what it will output; however, in the eBrain's case, it often will stay 'stuck' on the last input it saw. This is called a <strong>floating pin</strong> and we need to avoid it.\n\nWe need a clean signal."
+                }
+              ],
+              "type": "content basics"
+            }
           }
     ]
 }

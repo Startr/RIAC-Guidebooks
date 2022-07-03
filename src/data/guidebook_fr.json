@@ -625,19 +625,19 @@
 								"body": "Placez le corps en carton de votre robot sur votre espace de travail, côté brillant vers le bas. La face brillante sera l'extérieur du robot et la face mate sera l'intérieur."
 							},
 							{
-								"body": "Do an initial fold of all of the flaps of the eBrain"
+								"body": "Faites un premier pli de tous les volets de l'eBrain"
 							},
 							{
-								"body": "Fold the \"wings\" (3 and 4) so the tabs pop through the bottom"
+								"body": "Pliez les \"ailes\" (3 et 4) pour que les onglets sortent du bas."
 							},
 							{
-								"body": "Push in the front of the robot, pushing the tabs into the \"wings\""
+								"body": "Rentrez l'avant du robot, en pousssant les onglets dans les \"ailes\""
 							},
 							{
-								"body": "Push in the back of the robot, pushing the tabs into the \"wings\""
+								"body": "Rentrez le derrière du robot, en pousssant les onglets dans les \"ailes\""
 							},
 							{
-								"body": "Repeat the previous two steps, but remove the film from the double-sided tape."
+								"body": "Répétez les deux étapes précédentes, mais enlevez le film du ruban adhésif double face."
 							}
 						]
 					}
@@ -1034,52 +1034,6 @@
 			],
 			"type" : "content activity"
 		  }
-		},
-		{
-			"chapter_five" : {
-				"columns" : [
-				  {
-					"subtitle" : "Utiliser des boutons",
-					"title" : " Chapitre 5"
-				  }
-				],
-				"type" : "title chapter_title"
-			},
-			"no_signal_pin": {
-				"columns": [
-					{
-						"image": "fr_read_gpio4.png"
-					},
-					{
-						"title": "Que se passera-t-il?",
-						"body": "What will happen when I run this program with nothing plugged in? What will happen when a wire is plugged between pin 4 and 3.3v, or GND? Will the pin say it is High (1) or Low (0)?"
-					}
-				],
-				"type": "content basics"
-			},
-			"manual button": {
-				"columns": [
-					{
-						"image": "svg/fr-eBrain-manual-button.svg"
-					},
-					{
-						"title": "Try it out!",
-						"body": "Run this program. Then, get a jumper wire, and plug it into 3.3v and then 0v. What happens?"
-					}
-				],
-				"type": "content activity"
-			},
-			"no_response": {
-				"columns": [
-					{
-						"image": "svg/fr_someone_typing.svg"
-					},
-					{
-						"body": "When we think of digital signals, they are always either on - 1 or off - 0. However, there is, sort of, a third option: no signal. Nothing plugged into the pin. However, the eBrain still needs to turn that into a 1 or 0 signal.\n\nWhat does it do?\n\nIn general, we can't predict what it will output; however, in the eBrain's case, it often will stay 'stuck' on the last input it saw. This is called a <strong>floating pin</strong> and we need to avoid it.\n\nWe need a clean signal."
-					}
-				],
-				"type": "content basics"
-			}
 		}
 	  ]
 	}

@@ -1039,20 +1039,23 @@
 			"chapter_five" : {
 				"columns" : [
 				  {
-					"subtitle" : "Utiliser des boutons",
+					"subtitle" : "Utiliser des servos",
 					"title" : " Chapitre 5"
 				  }
 				],
 				"type" : "title chapter_title"
 			},
-			"no_signal_pin": {
+			"continuous_servos_1": {
 				"columns": [
 					{
-						"image": "fr_read_gpio4.png"
+						"image": "servo_moving_cw.jpg"
 					},
 					{
-						"title": "Que se passera-t-il?",
-						"body": "What will happen when I run this program with nothing plugged in? What will happen when a wire is plugged between pin 4 and 3.3v, or GND? Will the pin say it is High (1) or Low (0)?"
+						"image": "servo_moving_ccw.jpg"
+					},
+					{
+						"title": "Servo à rotation continue",
+						"body": "Des servos à rotation continue sont des servomoteurs qui peuvent tourner d'une manière continue dans un sens ou l'autre."
 					}
 				],
 				"type": "content basics"
@@ -1060,22 +1063,27 @@
 			"manual button": {
 				"columns": [
 					{
-						"image": "svg/fr-eBrain-manual-button.svg"
+						"image": "servo_still.jpg"
 					},
 					{
-						"title": "Try it out!",
-						"body": "Run this program. Then, get a jumper wire, and plug it into 3.3v and then 0v. What happens?"
+						"title": "Servo à rotation continue",
+						"body": "Ils peuvent aussi arrêter de bouger, bien sûr."
 					}
 				],
-				"type": "content activity"
+				"type": "content basics"
 			},
 			"no_response": {
 				"columns": [
 					{
-						"image": "svg/fr_someone_typing.svg"
+						"image": "svg/pulse.svg"
 					},
 					{
-						"body": "When we think of digital signals, they are always either on - 1 or off - 0. However, there is, sort of, a third option: no signal. Nothing plugged into the pin. However, the eBrain still needs to turn that into a 1 or 0 signal.\n\nWhat does it do?\n\nIn general, we can't predict what it will output; however, in the eBrain's case, it often will stay 'stuck' on the last input it saw. This is called a <strong>floating pin</strong> and we need to avoid it.\n\nWe need a clean signal."
+						"body": "Ceci est comment ce signal est envoyé. C'est un signal numérique, comme ceux qu'on a discuté avant.\n\nCe qui est intéressant est que la <b>longeur</b> du signal détermine comment il est interprété. Voici les options:",
+						"list": [
+							{"body": "<b>1 - 1.4 ms:</b> tourner dans le sens antihoraire"},
+							{"body": "<b>1.5ms:</b> ne pas bouger"},
+							{"body": "<b>1.6 - 2ms:</b> tourner dans le sens horaire"}
+						]
 					}
 				],
 				"type": "content basics"

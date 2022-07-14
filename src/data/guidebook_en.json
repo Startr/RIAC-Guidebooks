@@ -1028,7 +1028,7 @@
 					},
 					{
 						"title": "What is pwm?",
-						"body": "PWM is pulse-width modulation. It means controlling a circuit by changing the length of pulses being sent over. It is used everywhere to control the brightness of lights, like on laptops and smartphones, for instance.\n\nThis is how the servos receive their signal."
+						"body": "PWM is pulse-width modulation. It means controlling a circuit by changing the length of pulses being sent over.\n\nPWM is very fast. In the eBrain's case, the default is 1 kilohertz, or <b>one thousand</b> times per second!\n\nIt is used everywhere to control the brightness of lights, like on laptops and smartphones, for instance.\n\nThis is also how the servos receive their signal."
 					}
 				],
 				"type": "content basics"
@@ -1040,7 +1040,50 @@
 					},
 					{
 						"title": "Servos",
-						"body": "A traditional servo, like this one, is said to be positional. It can move in a range of angles, from 0 to about 180.\n\nWhy might they be used?"
+						"body": "A traditional servo, like this one, is said to be positional. It can move in a range of angles, from 0 to about 180.\n\n",
+						"subtitle": "Why might they be used?"
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_servo_applications" : {
+				"columns": [
+					{
+						"image": "robot-arm.jpg"
+					},
+					{
+						"title": "Servos",
+						"body": "There are many applications:",
+						"list": [
+							{
+								"body": "DVD drive"
+							},
+							{
+								"body": "Hobby planes"
+							},
+							{
+								"body": "RC cars"
+							},
+							{
+								"body": "etc"
+							}
+						]
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_pwm_signal": {
+				"columns": [
+					{
+						"image": "svg/pulse.svg"
+					},
+					{
+						"body": "This is how the signal is sent. It is a digital pulse, like most signals in the digital world.\n\nWhat is interesting is that the <b>length</b> of the pulse determines how the servo will move.\n\nThe shorter, the farther counterclockwise; and the longer, the farther clockwise.\n\nThese are the options:",
+						"list": [
+							{"body": "<b>1 - 1.4 ms:</b> Go to the left"},
+							{"body": "<b>1.5ms:</b> Go in the middle"},
+							{"body": "<b>1.6 - 2ms:</b> Go to the right"}
+						]
 					}
 				],
 				"type": "content basics"
@@ -1055,35 +1098,51 @@
 					},
 					{
 						"title": "Continuous servos",
-						"body": "Continuous rotation servos are those that turn in a continuous way in either direction."
+						"body": "Continuous rotation servos are those that turn in a continuous way in either direction, or stay still.",
+						"subtitle": "Why might they be used?"
 					}
 				],
 				"type": "content basics"
 			},
-			"manual button": {
+			"continuous_servos_2" : {
 				"columns": [
 					{
-						"image": "servo_still.jpg"
+						"image": "rc-car.jpg"
 					},
 					{
-						"title": "Continuous servos",
-						"body": "They can also stay still, of course."
+						"title": "Uses For Continuous Rotation Servos",
+						"body": "Here are some uses. Notice there is some repition; based on the application, continuous <b>and</b> positional could both be useful.",
+						"list": [
+							{
+								"body": "Robotics"
+							},
+							{
+								"body": "Hobby planes"
+							},
+							{
+								"body": "RC cars"
+							},
+							{
+								"body": "etc"
+							}
+						]
 					}
 				],
 				"type": "content basics"
 			},
-			"no_response": {
+			"continuous_pwm_signal": {
 				"columns": [
 					{
-						"image": "svg/pulse.svg"
+						"image": "svg/continuous-servo-pulse.svg"
 					},
 					{
-						"body": "This is how the signal is sent. It is a digital pulse, like most signals in the digital world.\n\nWhat is interesting is that the <b>length</b> of the pulse determines how the servo will move. These are the options:",
+						"body": "This is how the signal is sent.\n\nThe <b>length</b> of the pulse determines how the servo will move. These are the options:",
 						"list": [
 							{"body": "<b>1 - 1.4 ms:</b> turn counterclockwise"},
 							{"body": "<b>1.5ms:</b> stay still"},
 							{"body": "<b>1.6 - 2ms:</b> Turn clockwise"}
-						]
+						],
+						"fun_fact": "You may have noticed this looks identical as for the positional servo. That's because it is."
 					}
 				],
 				"type": "content basics"

@@ -1045,6 +1045,73 @@
 				],
 				"type" : "title chapter_title"
 			},
+			"pwm_1": {
+				"columns": [
+					{
+						"image": "svg/pwm.svg"
+					},
+					{
+						"title": "Qu'est-ce que c'est le MLI",
+						"body": "Le MLI c'est le Modulation de largeur d'impulsion. It means controlling a circuit by changing the length of pulses being sent over.\n\nPWM is very fast. In the eBrain's case, the default is 1 kilohertz, or <b>one thousand</b> times per second!\n\nIt is used everywhere to control the brightness of lights, like on laptops and smartphones, for instance.\n\nThis is also how the servos receive their signal."
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_servos" : {
+				"columns": [
+					{
+						"image": "positional_servo.gif"
+					},
+					{
+						"title": "Servos",
+						"body": "A traditional servo, like this one, is said to be positional. It can move in a range of angles, from 0 to about 180.\n\n",
+						"subtitle": "Why might they be used?"
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_servo_applications" : {
+				"columns": [
+					{
+						"image": "robot-arm.jpg"
+					},
+					{
+						"title": "Servos",
+						"body": "There are many applications:",
+						"list": [
+							{
+								"body": "DVD drive"
+							},
+							{
+								"body": "Hobby planes"
+							},
+							{
+								"body": "RC cars"
+							},
+							{
+								"body": "etc"
+							}
+						]
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_pwm_signal": {
+				"columns": [
+					{
+						"image": "svg/pulse.svg"
+					},
+					{
+						"body": "Ceci est comment ce signal est envoyé. C'est un signal numérique.\n\nCe qui est intéressant est que la <b>longueur</b> du signal détermine comment il est interprété. Un signal plus court: un angle plus vers la gauche. Un signal plus long: un angle plus vers la droite\n\nVoici les options:",
+						"list": [
+							{"body": "<b>1 - 1.4 ms:</b> Plus vers la gauche"},
+							{"body": "<b>1.5ms:</b> Plus dans le milieu"},
+							{"body": "<b>1.6 - 2ms:</b> Plus vers la droite"}
+						]
+					}
+				],
+				"type": "content basics"
+			},
 			"continuous_servos_1": {
 				"columns": [
 					{
@@ -1054,36 +1121,52 @@
 						"image": "servo_moving_ccw.jpg"
 					},
 					{
-						"title": "Servo à rotation continue",
-						"body": "Des servos à rotation continue sont des servomoteurs qui peuvent tourner d'une manière continue dans un sens ou l'autre."
+						"title": "Continuous servos",
+						"body": "Des servos à rotation continue sont des servomoteurs qui peuvent tourner d'une manière continue dans un sens ou l'autre, ou rester immobile.",
+						"subtitle": "Why might they be used?"
 					}
 				],
 				"type": "content basics"
 			},
-			"manual button": {
+			"continuous_servos_2" : {
 				"columns": [
 					{
-						"image": "servo_still.jpg"
+						"image": "rc-car.jpg"
 					},
 					{
-						"title": "Servo à rotation continue",
-						"body": "Ils peuvent aussi arrêter de bouger, bien sûr."
-					}
-				],
-				"type": "content basics"
-			},
-			"no_response": {
-				"columns": [
-					{
-						"image": "svg/pulse.svg"
-					},
-					{
-						"body": "Ceci est comment ce signal est envoyé. C'est un signal numérique, comme ceux qu'on a discuté avant.\n\nCe qui est intéressant est que la <b>longeur</b> du signal détermine comment il est interprété. Voici les options:",
+						"title": "Uses For Continuous Rotation Servos",
+						"body": "Here are some uses. Notice there is some repition; based on the application, continuous <b>and</b> positional could both be useful.",
 						"list": [
-							{"body": "<b>1 - 1.4 ms:</b> tourner dans le sens antihoraire"},
-							{"body": "<b>1.5ms:</b> ne pas bouger"},
-							{"body": "<b>1.6 - 2ms:</b> tourner dans le sens horaire"}
+							{
+								"body": "Robotics"
+							},
+							{
+								"body": "Hobby planes"
+							},
+							{
+								"body": "RC cars"
+							},
+							{
+								"body": "etc"
+							}
 						]
+					}
+				],
+				"type": "content basics"
+			},
+			"continuous_pwm_signal": {
+				"columns": [
+					{
+						"image": "svg/continuous-servo-pulse.svg"
+					},
+					{
+						"body": "This is how the signal is sent.\n\nThe <b>length</b> of the pulse determines how the servo will move. These are the options:",
+						"list": [
+							{"body": "<b>1 - 1.4 ms:</b> turn counterclockwise"},
+							{"body": "<b>1.5ms:</b> stay still"},
+							{"body": "<b>1.6 - 2ms:</b> Turn clockwise"}
+						],
+						"fun_fact": "You may have noticed this looks identical as for the positional servo. That's because it is."
 					}
 				],
 				"type": "content basics"

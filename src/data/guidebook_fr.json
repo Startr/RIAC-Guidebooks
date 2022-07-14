@@ -1208,6 +1208,65 @@
 				],
 				"type": "content activity"
 			}
+		},
+		{
+			"chapter_six" : {
+				"columns" : [
+				  {
+					"subtitle" : "Capteur de lumière et un robot qui chasse la lumière",
+					"title" : " Chapitre 6"
+				  }
+				],
+				"type" : "title chapter_title"
+			},
+			"analog" : {
+				"columns" : [
+				  {
+					"image" : "a2d.jpg"
+				  },
+				  {
+					"body" : "Pas tous les entrés sont juste 1 ou 0. Le mondre produit des signaux avec une granularité infinie, comme la musique d'une guitare, mais l'ordinateur a besion d'une manière de les interpréter!\n\nDonc, il sépare les vagues en des niveaux exacts. Le eBrain sépare des signaux analogiques dans 1024 niveaux.",
+					"image" : "analog.png",
+					"title" : "Entrée analogique"
+				  }
+				],
+				"type" : "content reference"
+			  },
+			  "light_sensor_code_1": {
+				"columns" : [
+					{
+					  "image" : "svg/eBrain-lightsensor.svg"
+					},
+					{
+					  "image" : "fr_simple_analog.png",
+					  "body" : "Try out this graphing script to graph the light input to the light sensor. This sensor is variable resistor and it changes the amount of electricity it let's pass depending on the amount of light on the sensor. Like the pupil in your eye.",
+					  "title" : "Utiliser le capteur de lumière"
+					}
+				  ],
+				  "type" : "content reference"
+			  },
+			  "light_sensor_code_2" : {
+				"columns" : [
+				  {
+					"image" : "svg/eBrain-lightsensor.svg"
+				  },
+				  {
+					"image" : "graphscript.png",
+					"body" : "Try out this graphing script to graph the light input to the light sensor. This sensor is variable resistor and it changes the amount of electricity it let's pass depending on the amount of light on the sensor. Like the pupil in your eye.",
+					"title" : "Utiliser le capteur de lumière"
+				  }
+				],
+				"type" : "content reference"
+			  },
+			  "light_sensor_experiment" : {
+				"columns" : [
+				  {
+					"body" : "See if you can make a quick experiment code that reacts to light.",
+					"title" : "Challenge! Make Your Code React To Light"
+				  }
+				],
+				"type" : "content activity"
+			  }
 		}
 	  ]
 	}

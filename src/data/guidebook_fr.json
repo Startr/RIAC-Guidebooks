@@ -1171,6 +1171,18 @@
 					}
 				],
 				"type": "content basics"
+			},
+			"servo_signal_equivalence": {
+				"columns": [
+					{
+						"image": "svg/servo-signal-equivalence.svg"
+					},
+					{
+						"title": "Les Signaux sont pareils!",
+						"body": "Comme j'ai suggéré, les deux types de servos prennent le même signal, même si le résultat est différent."
+					}
+				],
+				"type": "content basics"
 			}
 		}
 	  ]

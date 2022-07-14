@@ -1034,6 +1034,180 @@
 			],
 			"type" : "content activity"
 		  }
+		},
+		{
+			"chapter_five" : {
+				"columns" : [
+				  {
+					"subtitle" : "Utiliser des servos",
+					"title" : " Chapitre 5"
+				  }
+				],
+				"type" : "title chapter_title"
+			},
+			"pwm_1": {
+				"columns": [
+					{
+						"image": "svg/servo-pwm.svg"
+					},
+					{
+						"title": "Qu'est-ce que c'est le MLI (PWM)?",
+						"body": "Le MLI/PWM c'est le Modulation de largeur d'impulsion. Ça veut dire qu'on contrôle un circuit en changeant la longeur de signaux qu'on envoie; en d'autres mots, changer la largeur d'impulsion.\n\nLe MLI est très rapide. Dans le cas du eBrain, la vitesse par défaut est 1 kilohertz, ou <b>mille fois par seconde</b>!\n\nC'est utilisé partout pour contrôler l'intensité de lumières, et des écrans sur les ordinateurs et téléphones, par exemple."
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_servos" : {
+				"columns": [
+					{
+						"image": "servo_positional.gif"
+					},
+					{
+						"title": "Les servomoteurs",
+						"body": "Un servomoteur comme celui-ci peut bouger à une angle de 0 à 180 à peu près.\n\n",
+						"subtitle": "Pourquoi seraient-ils utilisés?"
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_servo_applications" : {
+				"columns": [
+					{
+						"image": "servo-robot-arm.jpg"
+					},
+					{
+						"title": "Les servomoteurs",
+						"body": "Il y a plusieurs endroits où ils sont utiles:",
+						"list": [
+							{
+								"body": "Lecteurs DVD"
+							},
+							{
+								"body": "Avions radiocommandées"
+							},
+							{
+								"body": "Voiture radiocommandée"
+							},
+							{
+								"body": "etc"
+							}
+						]
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_pwm_signal": {
+				"columns": [
+					{
+						"image": "svg/servo-positional-pulse.svg"
+					},
+					{
+						"body": "Ceci est comment ce signal est envoyé. C'est un signal numérique.\n\nCe qui est intéressant est que la <b>longueur</b> du signal détermine comment il est interprété; <b>c'est un signal MLI!</b> Un signal plus court: un angle plus vers la gauche. Un signal plus long: un angle plus vers la droite\n\nVoici les options:",
+						"list": [
+							{"body": "<b>1 - 1.4 ms:</b> Plus vers la gauche"},
+							{"body": "<b>1.5ms:</b> Plus dans le milieu"},
+							{"body": "<b>1.6 - 2ms:</b> Plus vers la droite"}
+						]
+					}
+				],
+				"type": "content basics"
+			},
+			"continuous_servos_1": {
+				"columns": [
+					{
+						"image": "servo_moving_cw.jpg"
+					},
+					{
+						"image": "servo_moving_ccw.jpg"
+					},
+					{
+						"title": "Continuous servos",
+						"body": "Des servos à rotation continue sont des servomoteurs qui peuvent tourner d'une manière continue dans un sens ou l'autre, ou rester immobile.",
+						"subtitle": "Pourquoi seraient-ils utilisés?"
+					}
+				],
+				"type": "content basics"
+			},
+			"continuous_servos_2" : {
+				"columns": [
+					{
+						"image": "servo-rc-car.jpg"
+					},
+					{
+						"title": "Utilisations pour des servos à rotation continue",
+						"body": "Voici des utilisations. Notez qu'il y a une certaine répétition; dans certains cas, les <b>deux types</b> de servomoteurs peuvent être utiles dans le même projet.",
+						"list": [
+							{
+								"body": "Machines CNC "
+							},
+							{
+								"body": "Avions radiocommandées"
+							},
+							{
+								"body": "Voiture radiocommandée"
+							},
+							{
+								"body": "etc"
+							}
+						]
+					}
+				],
+				"type": "content basics"
+			},
+			"continuous_pwm_signal": {
+				"columns": [
+					{
+						"image": "svg/continuous-servo-pulse.svg"
+					},
+					{
+						"title": "Son signal",
+						"body": "C'est un signal MLI, comme celui qui précède. Voici les options:",
+						"list": [
+							{"body": "<b>1 - 1.4 ms:</b> tourner dans le sens antihoraire"},
+							{"body": "<b>1.5ms:</b> rester immobile"},
+							{"body": "<b>1.6 - 2ms:</b> tourner dans le sens horaire"}
+						],
+						"fun_fact": "Tu as peut-être remarqué que les chiffres ici paraissent identiques à ceux pour le premier type de servomoteur. C'est parce que les signaux sont, en fait, identiques."
+					}
+				],
+				"type": "content basics"
+			},
+			"servo_signal_equivalence": {
+				"columns": [
+					{
+						"image": "svg/servo-signal-equivalence.svg"
+					},
+					{
+						"title": "Les Signaux sont pareils!",
+						"body": "Comme j'ai suggéré, les deux types de servos prennent le même signal, même si le résultat est différent."
+					}
+				],
+				"type": "content basics"
+			},
+			"try_servos_1": {
+				"columns": [
+					{
+						"image": "servo-plug-in-edited.jpg"
+					},
+					{
+						"title": "Branchez votre servomoteur",
+						"body": "Branchez votre servomoteur comme indiqué."
+					}
+				],
+				"type": "content activity"
+			},
+			"try_servos_2": {
+				"columns": [
+					{
+						"image": "servo_fr_script.png"
+					},
+					{
+						"title": "Essayez-le!",
+						"body": "Essayez ce programme!"
+					}
+				],
+				"type": "content activity"
+			}
 		}
 	  ]
 	}

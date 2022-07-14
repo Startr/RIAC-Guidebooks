@@ -1134,7 +1134,7 @@
 						"image": "servo-rc-car.jpg"
 					},
 					{
-						"title": "Utilisations communes pour des servos à rotation continue",
+						"title": "Utilisations pour des servos à rotation continue",
 						"body": "Voici des utilisations. Notez qu'il y a une certaine répétition; dans certains cas, les <b>deux types</b> de servomoteurs peuvent être utiles dans le même projet.",
 						"list": [
 							{
@@ -1187,7 +1187,7 @@
 			"try_servos_1": {
 				"columns": [
 					{
-						"image": "servo-plug-in.jpg"
+						"image": "servo-plug-in-edited.jpg"
 					},
 					{
 						"title": "Branchez votre servomoteur",

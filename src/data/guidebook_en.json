@@ -1015,46 +1015,174 @@
 			"chapter_five" : {
 				"columns" : [
 				  {
-					"subtitle" : "Using Buttons",
+					"subtitle" : "PWM and Servos",
 					"title" : " Chapter 5"
 				  }
 				],
 				"type" : "title chapter_title"
 			},
-			"no_signal_pin": {
+			"pwm_1": {
 				"columns": [
 					{
-						"image": "en_read_gpio4.png"
+						"image": "svg/servo-pwm.svg"
 					},
 					{
-						"title": "What Will Happen?",
-						"body": "What will happen when I run this program with nothing plugged in? What will happen when a wire is plugged between pin 4 and 3.3v, or GND? Will the pin say it is High (1) or Low (0)?"
+						"title": "What is pwm?",
+						"body": "PWM is pulse-width modulation. It means controlling a circuit by changing the length of pulses being sent over.\n\nPWM is very fast. In the eBrain's case, the default is 1 kilohertz, or <b>one thousand</b> times per second!\n\nIt is used everywhere to control the brightness of lights, like on laptops and smartphones, for instance.\n\nThis is also how the servos receive their signal."
 					}
 				],
 				"type": "content basics"
 			},
-			"manual button": {
+			"positional_servos" : {
 				"columns": [
 					{
-						"image": "svg/en-eBrain-manual-button.svg"
+						"image": "servo_positional.gif"
 					},
 					{
-						"title": "Try it out!",
-						"body": "Run this program. Then, get a jumper wire, and plug it into 3.3v and then 0v. What happens?"
+						"title": "Servos",
+						"body": "A traditional servo, like this one, is said to be positional. It can move in a range of angles, from 0 to about 180.\n\n",
+						"subtitle": "Why might they be used?"
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_servo_applications" : {
+				"columns": [
+					{
+						"image": "servo-robot-arm.jpg"
+					},
+					{
+						"title": "Servos",
+						"body": "There are many applications:",
+						"list": [
+							{
+								"body": "DVD drive"
+							},
+							{
+								"body": "RC planes"
+							},
+							{
+								"body": "RC cars"
+							},
+							{
+								"body": "etc"
+							}
+						]
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_pwm_signal": {
+				"columns": [
+					{
+						"image": "svg/servo-positional-pulse.svg"
+					},
+					{
+						"body": "This is how the signal is sent. It is a digital pulse, like most signals in the digital world.\n\nWhat is interesting is that its <b>length</b> determines how the servo will move; <b>it's PWM!</b>.\n\nThe shorter, it moves to an angle farther left; and the longer, it moves to an angle farther right.\n\nThese are the options:",
+						"list": [
+							{"body": "<b>1 - 1.4 ms:</b> Go to the left"},
+							{"body": "<b>1.5ms:</b> Go in the middle"},
+							{"body": "<b>1.6 - 2ms:</b> Go to the right"}
+						]
+					}
+				],
+				"type": "content basics"
+			},
+			"continuous_servos_1": {
+				"columns": [
+					{
+						"image": "servo_moving_cw.jpg"
+					},
+					{
+						"image": "servo_moving_ccw.jpg"
+					},
+					{
+						"title": "Continuous servos",
+						"body": "Continuous rotation servos are those that turn in a continuous way in either direction, or stay still.",
+						"subtitle": "Why might they be used?"
+					}
+				],
+				"type": "content basics"
+			},
+			"continuous_servos_2" : {
+				"columns": [
+					{
+						"image": "servo-rc-car.jpg"
+					},
+					{
+						"title": "Uses For Continuous Rotation Servos",
+						"body": "Here are some uses. Notice there is some repition; based on the application, continuous <b>and</b> positional could both be useful.",
+						"list": [
+							{
+								"body": "CNC Machines"
+							},
+							{
+								"body": "RC planes"
+							},
+							{
+								"body": "RC cars"
+							},
+							{
+								"body": "etc"
+							}
+						]
+					}
+				],
+				"type": "content basics"
+			},
+			"continuous_pwm_signal": {
+				"columns": [
+					{
+						"image": "svg/continuous-servo-pulse.svg"
+					},
+					{
+						"title": "Its Signal",
+						"body": "It is a PWM signal, like the last one. These are the options:",
+						"list": [
+							{"body": "<b>1 - 1.4 ms:</b> turn counterclockwise"},
+							{"body": "<b>1.5ms:</b> stay still"},
+							{"body": "<b>1.6 - 2ms:</b> Turn clockwise"}
+						],
+						"fun_fact": "You may have noticed this looks identical as for the positional servo. That's because it is."
+					}
+				],
+				"type": "content basics"
+			},
+			"servo_signal_equivalence": {
+				"columns": [
+					{
+						"image": "svg/servo-signal-equivalence.svg"
+					},
+					{
+						"title": "The Signals are the Same!",
+						"body": "As I have suggested, these servos take the same signal type, even though the output is different."
+					}
+				],
+				"type": "content basics"
+			},
+			"try_servos_1": {
+				"columns": [
+					{
+						"image": "servo-plug-in-edited.jpg"
+					},
+					{
+						"title": "Plug it in",
+						"body": "Plug in your servo as shown."
 					}
 				],
 				"type": "content activity"
 			},
-			"no_response": {
+			"try_servos_2": {
 				"columns": [
 					{
-						"image": "svg/en_someone_typing.svg"
+						"image": "servo_en_script.png"
 					},
 					{
-						"body": "When we think of digital signals, they are always either on - 1 or off - 0. However, there is, sort of, a third option: no signal. Nothing plugged into the pin. However, the eBrain still needs to turn that into a 1 or 0 signal.\n\nWhat does it do?\n\nIn general, we can't predict what it will output; however, in the eBrain's case, it often will stay 'stuck' on the last input it saw. This is called a <strong>floating pin</strong> and we need to avoid it.\n\nWe need a clean signal."
+						"title": "Try it Out!",
+						"body": "Try this code!"
 					}
 				],
-				"type": "content basics"
+				"type": "content activity"
 			}
 		}
 	  ]

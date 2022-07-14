@@ -1102,7 +1102,7 @@
 						"image": "svg/pulse.svg"
 					},
 					{
-						"body": "Ceci est comment ce signal est envoyé. C'est un signal numérique.\n\nCe qui est intéressant est que la <b>longueur</b> du signal détermine comment il est interprété. Un signal plus court: un angle plus vers la gauche. Un signal plus long: un angle plus vers la droite\n\nVoici les options:",
+						"body": "Ceci est comment ce signal est envoyé. C'est un signal numérique.\n\nCe qui est intéressant est que la <b>longueur</b> du signal détermine comment il est interprété; <b>c'est un signal MLI!</b> Un signal plus court: un angle plus vers la gauche. Un signal plus long: un angle plus vers la droite\n\nVoici les options:",
 						"list": [
 							{"body": "<b>1 - 1.4 ms:</b> Plus vers la gauche"},
 							{"body": "<b>1.5ms:</b> Plus dans le milieu"},
@@ -1160,7 +1160,8 @@
 						"image": "svg/continuous-servo-pulse.svg"
 					},
 					{
-						"body": " Ceci est comment ce signal est envoyé.\n\nLa <b>longueur</b> du signal détermine comment le servomoteur va bouger. Voici les options:",
+						"title": "Son signal",
+						"body": "C'est un signal MLI, comme celui qui précède. Voici les options:",
 						"list": [
 							{"body": "<b>1 - 1.4 ms:</b> tourner dans le sens antihoraire"},
 							{"body": "<b>1.5ms:</b> rester immobile"},

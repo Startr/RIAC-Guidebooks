@@ -1051,8 +1051,8 @@
 						"image": "svg/pwm.svg"
 					},
 					{
-						"title": "Qu'est-ce que c'est le MLI",
-						"body": "Le MLI c'est le Modulation de largeur d'impulsion. It means controlling a circuit by changing the length of pulses being sent over.\n\nPWM is very fast. In the eBrain's case, the default is 1 kilohertz, or <b>one thousand</b> times per second!\n\nIt is used everywhere to control the brightness of lights, like on laptops and smartphones, for instance.\n\nThis is also how the servos receive their signal."
+						"title": "Qu'est-ce que c'est le MLI (PWM)?",
+						"body": "Le MLI/PWM c'est le Modulation de largeur d'impulsion. Ça veut dire qu'on contrôle un circuit en changeant la longeur de signaux qu'on envoie; en d'autres mots, changer la largeur d'impulsion.\n\nLe MLI est très rapide. Dans le cas du eBrain, la vitesse par défaut est 1 kilohertz, ou <b>mille fois par seconde</b>!\n\nC'est utilisé partout pour contrôler l'intensité de lumières, et des écrans sur les ordinateurs et téléphones, par exemple."
 					}
 				],
 				"type": "content basics"
@@ -1063,9 +1063,9 @@
 						"image": "positional_servo.gif"
 					},
 					{
-						"title": "Servos",
-						"body": "A traditional servo, like this one, is said to be positional. It can move in a range of angles, from 0 to about 180.\n\n",
-						"subtitle": "Why might they be used?"
+						"title": "Les servomoteurs",
+						"body": "Un servomoteur comme celui-ci peut bouger à une angle de 0 à 180 à peu près.\n\n",
+						"subtitle": "Pourquoi seraient-ils utilisés?"
 					}
 				],
 				"type": "content basics"
@@ -1076,17 +1076,17 @@
 						"image": "robot-arm.jpg"
 					},
 					{
-						"title": "Servos",
-						"body": "There are many applications:",
+						"title": "Les servomoteurs",
+						"body": "Il y a plusieurs endroits où ils sont utiles:",
 						"list": [
 							{
-								"body": "DVD drive"
+								"body": "Lecteurs DVD"
 							},
 							{
-								"body": "Hobby planes"
+								"body": "Avions radiocommandées"
 							},
 							{
-								"body": "RC cars"
+								"body": "Voiture radiocommandée"
 							},
 							{
 								"body": "etc"
@@ -1123,7 +1123,7 @@
 					{
 						"title": "Continuous servos",
 						"body": "Des servos à rotation continue sont des servomoteurs qui peuvent tourner d'une manière continue dans un sens ou l'autre, ou rester immobile.",
-						"subtitle": "Why might they be used?"
+						"subtitle": "Pourquoi seraient-ils utilisés?"
 					}
 				],
 				"type": "content basics"
@@ -1134,17 +1134,17 @@
 						"image": "rc-car.jpg"
 					},
 					{
-						"title": "Uses For Continuous Rotation Servos",
-						"body": "Here are some uses. Notice there is some repition; based on the application, continuous <b>and</b> positional could both be useful.",
+						"title": "Utilisations communes pour des servos à rotation continue",
+						"body": "Voici des utilisations. Notez qu'il y a une certaine répétition; dans certains cas, les <b>deux types</b> de servomoteurs peuvent être utiles dans le même projet.",
 						"list": [
 							{
-								"body": "Robotics"
+								"body": "Machines CNC "
 							},
 							{
-								"body": "Hobby planes"
+								"body": "Avions radiocommandées"
 							},
 							{
-								"body": "RC cars"
+								"body": "Voiture radiocommandée"
 							},
 							{
 								"body": "etc"
@@ -1160,13 +1160,13 @@
 						"image": "svg/continuous-servo-pulse.svg"
 					},
 					{
-						"body": "This is how the signal is sent.\n\nThe <b>length</b> of the pulse determines how the servo will move. These are the options:",
+						"body": " Ceci est comment ce signal est envoyé.\n\nLa <b>longueur</b> du signal détermine comment le servomoteur va bouger. Voici les options:",
 						"list": [
-							{"body": "<b>1 - 1.4 ms:</b> turn counterclockwise"},
-							{"body": "<b>1.5ms:</b> stay still"},
-							{"body": "<b>1.6 - 2ms:</b> Turn clockwise"}
+							{"body": "<b>1 - 1.4 ms:</b> tourner dans le sens antihoraire"},
+							{"body": "<b>1.5ms:</b> rester immobile"},
+							{"body": "<b>1.6 - 2ms:</b> tourner dans le sens horaire"}
 						],
-						"fun_fact": "You may have noticed this looks identical as for the positional servo. That's because it is."
+						"fun_fact": "Tu as peut-être remarqué que les chiffres ici paraissent identiques à ceux pour le premier type de servomoteur. C'est parce que les signaux sont, en fait, identiques."
 					}
 				],
 				"type": "content basics"

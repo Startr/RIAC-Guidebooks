@@ -1059,7 +1059,7 @@
 								"body": "DVD drive"
 							},
 							{
-								"body": "Hobby planes"
+								"body": "RC planes"
 							},
 							{
 								"body": "RC cars"
@@ -1114,10 +1114,10 @@
 						"body": "Here are some uses. Notice there is some repition; based on the application, continuous <b>and</b> positional could both be useful.",
 						"list": [
 							{
-								"body": "Robotics"
+								"body": "CNC Machines"
 							},
 							{
-								"body": "Hobby planes"
+								"body": "RC planes"
 							},
 							{
 								"body": "RC cars"

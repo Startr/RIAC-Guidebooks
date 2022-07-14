@@ -1121,7 +1121,7 @@
 						"image": "servo_moving_ccw.jpg"
 					},
 					{
-						"title": "Continuous servos",
+						"title": "Servos à rotation continue",
 						"body": "Des servos à rotation continue sont des servomoteurs qui peuvent tourner d'une manière continue dans un sens ou l'autre, ou rester immobile.",
 						"subtitle": "Pourquoi seraient-ils utilisés?"
 					}
@@ -1178,7 +1178,7 @@
 						"image": "svg/servo-signal-equivalence.svg"
 					},
 					{
-						"title": "Les Signaux sont pareils!",
+						"title": "Les signaux sont pareils!",
 						"body": "Comme j'ai suggéré, les deux types de servos prennent le même signal, même si le résultat est différent."
 					}
 				],

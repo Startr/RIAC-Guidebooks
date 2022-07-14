@@ -1024,7 +1024,7 @@
 			"pwm_1": {
 				"columns": [
 					{
-						"image": "svg/pwm.svg"
+						"image": "svg/servo-pwm.svg"
 					},
 					{
 						"title": "What is pwm?",
@@ -1036,7 +1036,7 @@
 			"positional_servos" : {
 				"columns": [
 					{
-						"image": "positional_servo.gif"
+						"image": "servo_positional.gif"
 					},
 					{
 						"title": "Servos",
@@ -1049,7 +1049,7 @@
 			"positional_servo_applications" : {
 				"columns": [
 					{
-						"image": "robot-arm.jpg"
+						"image": "servo-robot-arm.jpg"
 					},
 					{
 						"title": "Servos",
@@ -1075,7 +1075,7 @@
 			"positional_pwm_signal": {
 				"columns": [
 					{
-						"image": "svg/pulse.svg"
+						"image": "svg/servo-positional-pulse.svg"
 					},
 					{
 						"body": "This is how the signal is sent. It is a digital pulse, like most signals in the digital world.\n\nWhat is interesting is that its <b>length</b> determines how the servo will move; <b>it's PWM!</b>.\n\nThe shorter, it moves to an angle farther left; and the longer, it moves to an angle farther right.\n\nThese are the options:",
@@ -1107,7 +1107,7 @@
 			"continuous_servos_2" : {
 				"columns": [
 					{
-						"image": "rc-car.jpg"
+						"image": "servo-rc-car.jpg"
 					},
 					{
 						"title": "Uses For Continuous Rotation Servos",

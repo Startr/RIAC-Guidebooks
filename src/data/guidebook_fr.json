@@ -1048,7 +1048,7 @@
 			"pwm_1": {
 				"columns": [
 					{
-						"image": "svg/pwm.svg"
+						"image": "svg/servo-pwm.svg"
 					},
 					{
 						"title": "Qu'est-ce que c'est le MLI (PWM)?",
@@ -1060,7 +1060,7 @@
 			"positional_servos" : {
 				"columns": [
 					{
-						"image": "positional_servo.gif"
+						"image": "servo_positional.gif"
 					},
 					{
 						"title": "Les servomoteurs",
@@ -1073,7 +1073,7 @@
 			"positional_servo_applications" : {
 				"columns": [
 					{
-						"image": "robot-arm.jpg"
+						"image": "servo-robot-arm.jpg"
 					},
 					{
 						"title": "Les servomoteurs",
@@ -1099,7 +1099,7 @@
 			"positional_pwm_signal": {
 				"columns": [
 					{
-						"image": "svg/pulse.svg"
+						"image": "svg/servo-positional-pulse.svg"
 					},
 					{
 						"body": "Ceci est comment ce signal est envoyé. C'est un signal numérique.\n\nCe qui est intéressant est que la <b>longueur</b> du signal détermine comment il est interprété; <b>c'est un signal MLI!</b> Un signal plus court: un angle plus vers la gauche. Un signal plus long: un angle plus vers la droite\n\nVoici les options:",
@@ -1131,7 +1131,7 @@
 			"continuous_servos_2" : {
 				"columns": [
 					{
-						"image": "rc-car.jpg"
+						"image": "servo-rc-car.jpg"
 					},
 					{
 						"title": "Utilisations communes pour des servos à rotation continue",

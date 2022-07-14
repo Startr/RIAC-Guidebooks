@@ -1015,11 +1015,35 @@
 			"chapter_five" : {
 				"columns" : [
 				  {
-					"subtitle" : "Using Servos",
+					"subtitle" : "PWM and Servos",
 					"title" : " Chapter 5"
 				  }
 				],
 				"type" : "title chapter_title"
+			},
+			"pwm_1": {
+				"columns": [
+					{
+						"image": "svg/pwm.svg"
+					},
+					{
+						"title": "What is pwm?",
+						"body": "PWM is pulse-width modulation. It means controlling a circuit by changing the length of pulses being sent over. It is used everywhere to control the brightness of lights, like on laptops and smartphones, for instance.\n\nThis is how the servos receive their signal."
+					}
+				],
+				"type": "content basics"
+			},
+			"positional_servos" : {
+				"columns": [
+					{
+						"image": "positional_servo.gif"
+					},
+					{
+						"title": "Servos",
+						"body": "A traditional servo, like this one, is said to be positional. It can move in a range of angles, from 0 to about 180.\n\nWhy might they be used?"
+					}
+				],
+				"type": "content basics"
 			},
 			"continuous_servos_1": {
 				"columns": [

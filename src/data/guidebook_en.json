@@ -1159,6 +1159,30 @@
 					}
 				],
 				"type": "content basics"
+			},
+			"try_servos_1": {
+				"columns": [
+					{
+						"image": "servo-plug-in.jpg"
+					},
+					{
+						"title": "Plug it in",
+						"body": "Plug in your servo as shown."
+					}
+				],
+				"type": "content activity"
+			},
+			"try_servos_2": {
+				"columns": [
+					{
+						"image": "servo_en_script.png"
+					},
+					{
+						"title": "Try it Out!",
+						"body": "Try this code!"
+					}
+				],
+				"type": "content activity"
 			}
 		}
 	  ]

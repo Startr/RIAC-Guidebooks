@@ -1183,6 +1183,30 @@
 					}
 				],
 				"type": "content basics"
+			},
+			"try_servos_1": {
+				"columns": [
+					{
+						"image": "servo-plug-in.jpg"
+					},
+					{
+						"title": "Branchez votre servomoteur",
+						"body": "Branchez votre servomoteur comme indiqué."
+					}
+				],
+				"type": "content activity"
+			},
+			"try_servos_2": {
+				"columns": [
+					{
+						"image": "servo_fr_script.png"
+					},
+					{
+						"title": "Essayez-le!",
+						"body": "Essayez ce programme!"
+					}
+				],
+				"type": "content activity"
 			}
 		}
 	  ]

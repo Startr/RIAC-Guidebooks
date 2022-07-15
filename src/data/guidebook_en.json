@@ -1078,7 +1078,7 @@
 						"image": "svg/servo-positional-pulse.svg"
 					},
 					{
-						"body": "This is how the signal is sent. It is a digital pulse, like most signals in the digital world.\n\nWhat is interesting is that its <b>length</b> determines how the servo will move; <b>it's PWM!</b>.\n\nThe shorter, it moves to an angle farther left; and the longer, it moves to an angle farther right.\n\nThese are the options:",
+						"body": "This is how the signal is sent. It is a digital pulse, like most signals in the digital world.\n\nWhat is interesting is that its <b>length</b> determines how the servo will move; <b>it's PWM!</b>.\n\nThe shorter, it moves to an angle farther left; and the longer, it moves to an angle farther right.\n\nThese are the options in numbers:",
 						"list": [
 							{"body": "<b>1 - 1.4 ms:</b> Go to the left"},
 							{"body": "<b>1.5ms:</b> Go in the middle"},
@@ -1155,7 +1155,7 @@
 					},
 					{
 						"title": "The Signals are the Same!",
-						"body": "As I have suggested, these servos take the same signal type, even though the output is different."
+						"body": "As I have suggested, these servos take the same signal type, even though the output is different.\n\nIn this case, that means that we will program our servos <strong>using degrees</strong>."
 					}
 				],
 				"type": "content basics"

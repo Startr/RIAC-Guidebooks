@@ -1219,6 +1219,71 @@
 				],
 				"type" : "title chapter_title"
 			},
+			"gpio" : {
+				"columns" : [
+				  {
+					"image" : "svg/eBrain-07.svg"
+				  },
+				  {
+					"body" : "Entrées/sorties à usage général (en anglais se dit “General Purpose Input Output”, d’où vient l'abréviation “GPIO”)\n\nL’endroit le plus important! Votre ordinateur parle à votre carte par le biais des connexions électriques de la baie GPIO.\n\nCette rangée de trous est presque comme une ligne téléphonique directe vers l'ordinateur. Grâce à ces connexions, l'ordinateur eBrain peut parler (sortir) et écouter (entrer) vers d'autres appareils électroniques. Nous apprendrons à utiliser ces connexions plus tard!",
+					"title" : "Baie GPIO"
+				  }
+				],
+				"type" : "content reference"
+			  },
+			  "gpio_II" : {
+				"columns" : [
+				  {
+					"image" : "inputout.png"
+				  },
+				  {
+					"body" : "Si moi je parle et tu écoutes, de ma perspective parler est une sortie, mais de la tienne écouter est une entrée; on doit <strong>choisir</strong> un des deux. Quand on pense d'entrées et de sorties, on prend la perspective d'où que le traitement des données se passe. Dans ce cas, cet endroit est l'ordinateur.",
+					"title" : "GPIO (Entrées/sorties à usage général)"
+				  }
+				],
+				"type" : "content basics"
+			  },
+			  "blink" : {
+				"columns" : [
+				  {
+					"image" : "svg/eBrain-LED.svg",
+					"message" : "Remarquez qu'on est connecté à la broche 4 du GPIO - et le code utilise la même broche. Cependant, sachez que toutes les broches fonctionnent comme entrées et sorties!"
+				  },
+				  {
+					"image" : "fr_blink.png",
+					"body" : "Dans ce code, on a une boucle qui répète les instructions qu'on place à l'intérieur. Les blocs sont codés à l'aide de couleurs et sont retrouvés dans la section de la 'Palette' avec la couleur qui correspond. Ici on utilise des blocs jaunes de la palette \"Contrôles\" et des blocs noirs de la palette \"eBrain\".",
+					"title" : "Faire clignoter la DEL"
+				  }
+				],
+				"type" : "content activity"
+			  },
+			  "output" : {
+				"columns" : [
+				  {
+					"image" : "output.png"
+				  },
+				  {
+					"body" : "Ceci est un exemple d'une sortie, étant donné qu'on prend la perspective de l'ordinateur (et non celui de la DEL).\n\nL'ordinateur envoie un signal à la lumière.",
+					"title" : "Sortie"
+				  }
+				],
+				"type" : "content basics"
+			  },
+			  "binary" : {
+				"columns" : [
+				  {
+					"image" : "binary.png",
+					"fun_fact" : "Ceci est une onde carrée. Il n'a que des 1s et des 0s, avec rien entre les deux, ce qui lui donne sa forme carrée. Ce genre d'onde est utilisé pour visualiser des signaux de l'électronique numérique, comme des ordinateurs.",
+					"message" : "Si j'envoie deux signaux ALLUMÉ de suite, comment l'ordinateur peut-il décoder que c'est deux 1s? Le moment où chaque signal est envoyé joue un rôle clé. Ces signaux sont comme de la musique, parce qu'ils ont un rythme, ce qu'on appelle la fréquence d'horloge. Cette fréquence est d'habitude à un milliard de fois par seconde!"
+				  },
+				  {
+					"image" : "binaryII.png",
+					"body" : "Les ordinateurs ont seulement deux mots dans leur langue: 1 et 0. Avec ces deux mots ils peuvent dire tellement de choses! Ceci est parce qu'ils utilisent des combinaisons de 1s et 0s pour faire des codes. Les ordinateurs sont des appareils électromagnétiques qui utilisent l'électricité pour représenter ces 0s et 1s. 0 est éteint et 1 est allumé (3.3v).",
+					"title" : "La vrai langue des ordinateurs: le binaire"
+				  }
+				],
+				"type" : "content basics"
+			  },
 			"analog" : {
 				"columns" : [
 				  {

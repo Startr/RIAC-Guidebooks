@@ -1195,6 +1195,71 @@
 				],
 				"type" : "title chapter_title"
 			},
+			"gpio" : {
+				"columns" : [
+				  {
+					"image" : "svg/eBrain-07.svg"
+				  },
+				  {
+					"body" : "The most important area! Your computer speaks to your board through the electrical connections on GPIO bay. This row of holes is almost like a direct phone line into the computer. \n\nUsing these connections the eBrain computer can talk (out) and listen (in) to other electronics. We will learn to use this more later!",
+					"title" : "GPIO: General Purpose Input / Output"
+				  }
+				],
+				"type" : "content reference"
+			  },
+			  "gpio_II" : {
+				"columns" : [
+				  {
+					"image" : "inputout.png"
+				  },
+				  {
+					"body" : "If I am talking and you are listening, from my perspective talking is an output, but from your perspective it is an input; we need to <strong>pick</strong> a perspective. When we think about input and output we think from the perspective of where the processing is happening in the system; in this case we are looking at the computer as the processor.",
+					"title" : "GPIO: General Purpose Input / Output"
+				  }
+				],
+				"type" : "content basics"
+			  },
+			  "blink" : {
+				"columns" : [
+				  {
+					"image" : "svg/eBrain-LED.svg",
+					"message" : "Notice we are connected to GPIO pin 4 - and in the code that is the pin we are controlling, but all the GPIO pins work as inputs and outputs!"
+				  },
+				  {
+					"image" : "en_blink.png",
+					"body" : "In this code we have a forever loop that will repeat the instructions that we place inside it. The blocks are color coded and can be found in the 'Palette' that has the matching colors. Here we are using yellow blocks from the control palette, and black blocks from the eBrain palette.",
+					"title" : "Blink the LED"
+				  }
+				],
+				"type" : "content activity"
+			  },
+			  "output" : {
+				"columns" : [
+				  {
+					"image" : "output.png"
+				  },
+				  {
+					"body" : "This is an example of output. As we are thinking from the perspective of the computer (not the LED). \n\nThe Computer is sending a signal out to the light.",
+					"title" : "Output"
+				  }
+				],
+				"type" : "content basics"
+			  },
+			  "binary" : {
+				"columns" : [
+				  {
+					"image" : "binary.png",
+					"fun_fact" : "This is a square wave. It is also called a binary wave since it is either 1 or 0 and nothing in between, this give it a unique square shape. This kind of wave is used to visualize signals in digital electronics, like computers.",
+					"message" : "If I send two ON signals in a row how can the computer decode that as two 1's? Timing plays a key role, the computer's signals are like music and they have a steady beat, this is called a clock speed and it usually is about a billion times per second!"
+				  },
+				  {
+					"image" : "binaryII.png",
+					"body" : "Computers only have two words in thier language: 1 and 0. With these two words they can say so many things! This is because they can use different combinations of 1's and 0's to make codes. Computers are electro-mechanical machines that use electricity to represent these 0's and 1's. 0 is OFF and 1 is ON (3.3v).",
+					"title" : "The True Language of Computers: Binary"
+				  }
+				],
+				"type" : "content basics"
+			  }, 
 			"analog" : {
 				"columns" : [
 				  {

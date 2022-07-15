@@ -1239,7 +1239,7 @@
 					},
 					{
 					  "image" : "fr_simple_analog.png",
-					  "body" : "Try out this graphing script to graph the light input to the light sensor. This sensor is variable resistor and it changes the amount of electricity it let's pass depending on the amount of light on the sensor. Like the pupil in your eye.",
+					  "body" : "Essayez ce script simple, il montrera le montant de lumière qui entre dans le capteur. Il est une résistance variable qui change le montant d'électricité qu'il permet de passer dépendamment de la lumière qui tombe dessus. Comme la pupille dans ton œil.",
 					  "title" : "Utiliser le capteur de lumière"
 					}
 				  ],
@@ -1251,8 +1251,8 @@
 					"image" : "svg/eBrain-lightsensor.svg"
 				  },
 				  {
-					"image" : "graphscript.png",
-					"body" : "Try out this graphing script to graph the light input to the light sensor. This sensor is variable resistor and it changes the amount of electricity it let's pass depending on the amount of light on the sensor. Like the pupil in your eye.",
+					"image" : "fr_analog_graph.png",
+					"body" : "Essayez ce script pour dessiner un graphique du montant de lumière que le capteur voit.",
 					"title" : "Utiliser le capteur de lumière"
 				  }
 				],
@@ -1261,8 +1261,8 @@
 			  "light_sensor_experiment" : {
 				"columns" : [
 				  {
-					"body" : "See if you can make a quick experiment code that reacts to light.",
-					"title" : "Challenge! Make Your Code React To Light"
+					"body" : "Essayez de faire un code expérimental qui réagit à la lumière.",
+					"title" : "Défi! Faites du code qui réagit à la lumière"
 				  }
 				],
 				"type" : "content activity"

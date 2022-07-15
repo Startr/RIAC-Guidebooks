@@ -1215,7 +1215,7 @@
 					},
 					{
 					  "image" : "en_simple_analog.png",
-					  "body" : "Try out this simple script to show the light input to the light sensor. This sensor is variable resistor and it changes the amount of electricity it let's pass depending on the amount of light on the sensor. Like the pupil in your eye.",
+					  "body" : "Try out this simple script to show the light input to the light sensor. This sensor is variable resistor and it changes the amount of electricity it lets pass depending on the amount of light on the sensor. Like the pupil in your eye.",
 					  "title" : "Using the Light Sensor"
 					}
 				  ],
@@ -1227,7 +1227,7 @@
 					"image" : "svg/eBrain-lightsensor.svg"
 				  },
 				  {
-					"image" : "graphscript.png",
+					"image" : "en_analog_graph.png",
 					"body" : "Try out this graphing script to graph the light input to the light sensor.",
 					"title" : "Using the Light Sensor"
 				  }

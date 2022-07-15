@@ -1102,10 +1102,10 @@
 						"image": "svg/servo-positional-pulse.svg"
 					},
 					{
-						"body": "Ceci est comment ce signal est envoyé. C'est un signal numérique.\n\nCe qui est intéressant est que la <b>longueur</b> du signal détermine comment il est interprété; <b>c'est un signal MLI!</b> Un signal plus court: un angle plus vers la gauche. Un signal plus long: un angle plus vers la droite\n\nVoici les options:",
+						"body": "Ceci est comment ce signal est envoyé. C'est un signal numérique.\n\nCe qui est intéressant est que la <b>longueur</b> du signal détermine comment il est interprété; <b>c'est un signal MLI!</b>\n\n Un signal plus court: un angle plus vers la gauche. Un signal plus long: un angle plus vers la droite\n\nVoici les options en chiffres:",
 						"list": [
 							{"body": "<b>1 - 1.4 ms:</b> Plus vers la gauche"},
-							{"body": "<b>1.5ms:</b> Plus dans le milieu"},
+							{"body": "<b>1.5ms:</b> Au milieu"},
 							{"body": "<b>1.6 - 2ms:</b> Plus vers la droite"}
 						]
 					}
@@ -1179,7 +1179,7 @@
 					},
 					{
 						"title": "Les signaux sont pareils!",
-						"body": "Comme j'ai suggéré, les deux types de servos prennent le même signal, même si le résultat est différent."
+						"body": "Comme j'ai suggéré, les deux types de servos prennent le même signal, même si le résultat est différent.\n\nDans ce cas, cela veut dire qu'on va programmer nos servos en <strong>utilisant des degrés.</strong>"
 					}
 				],
 				"type": "content basics"

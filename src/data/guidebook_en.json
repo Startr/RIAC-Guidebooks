@@ -1117,6 +1117,49 @@
 					}
 				],
 				"type": "content basics"
+			  },
+			  "if_mic": {
+				"columns": [
+					{
+						"title": "Si sinon - microphone",
+						"body": "Essayez ce code. Il te dira si c'est bruyant ou non.\n\n<b>Essaye de changer le chiffre!</b>",
+						"image": "fr_mic_if_else.png"
+					},
+					{
+						"title": "If else - Microphone",
+						"body": "Try out this code. It will tell you if it is loud or not.\n\n<b>Try changing the number</b>!",
+						"image": "en_mic_if_else.png"
+					}
+				],
+				"type": "content activity"
+			  },
+			  "plug_in_led": {
+				"columns": [
+					{
+						"title": "Branchez une lumière",
+						"image": "svg/eBrain-LED.svg"
+					},
+					{
+						"title": "Plug in a light",
+						"image": "svg/eBrain-LED.svg"
+					}
+				],
+				"type": "content activity"
+			  },
+			  "if_mic_led": {
+				"columns": [
+					{
+						"title": "Si sinon - microphone",
+						"body": "Essayez ce code. Il te montrera aussi <b>sur la lumière</b> si c'est bruyant ou non.\n\nEssaye de changer le chiffre!",
+						"image": "fr_mic_led_1.png"
+					},
+					{
+						"title": "If else - Microphone",
+						"body": "Try out this new code. It will also show you <b>on the light</b> if it's loud.\n\nTry changing the number!",
+						"image": "en_mic_led_1.png"
+					}
+				],
+				"type": "content activity"
 			  }
 			}
 	  ]

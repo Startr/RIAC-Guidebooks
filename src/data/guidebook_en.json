@@ -1050,7 +1050,7 @@
 			  "light_sensor_code_2" : {
 				"columns" : [
 				  {
-					"image" : "svg/eBrain-lightsensor.svg"
+					"image" : "svg/eBrain-microphone.svg"
 				  },
 				  {
 					"image" : "en_analog_graph.png",

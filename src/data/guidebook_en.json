@@ -1015,176 +1015,61 @@
 			"chapter_five" : {
 				"columns" : [
 				  {
-					"subtitle" : "PWM and Servos",
+					"subtitle" : "Microhpones and Data Visualization",
 					"title" : " Chapter 5"
 				  }
 				],
 				"type" : "title chapter_title"
 			},
-			"pwm_1": {
-				"columns": [
-					{
-						"image": "svg/servo-pwm.svg"
-					},
-					{
-						"title": "What is pwm?",
-						"body": "PWM is pulse-width modulation. It means controlling a circuit by changing the length of pulses being sent over.\n\nPWM is very fast. In the eBrain's case, the default is 1 kilohertz, or <b>one thousand</b> times per second!\n\nIt is used everywhere to control the brightness of lights, like on laptops and smartphones, for instance.\n\nThis is also how the servos receive their signal."
-					}
+			"analog" : {
+				"columns" : [
+				  {
+					"image" : "a2d.jpg"
+				  },
+				  {
+					"body" : "Not all input is just 1 or 0. The natural world produces signals that are infinitely granular like the music from a guitar, but the computer needs a way of interpreting these signals!\n\nSo it breaks down the waves into steps. The eBrain can break down analog signals down into 1024 steps.",
+					"image" : "analog.png",
+					"title" : "Analog Input"
+				  }
 				],
-				"type": "content basics"
-			},
-			"positional_servos" : {
-				"columns": [
+				"type" : "content reference"
+			  },
+			  "light_sensor_code_1": {
+				"columns" : [
 					{
-						"image": "servo_positional.gif"
+					  "image" : "svg/eBrain-microphone.svg"
 					},
 					{
-						"title": "Servos",
-						"body": "A traditional servo, like this one, is said to be positional. It can move in a range of angles, from 0 to about 180.\n\n",
-						"subtitle": "Why might they be used?"
+					  "image" : "en_simple_analog.png",
+					  "body" : "Try out this simple script to show the loudness input to the microphone. A microhpone uses a diaphragm that moves back and forth in response to sound, sort of like the eardrum in your ear.",
+					  "title" : "Using the Microphone"
 					}
+				  ],
+				  "type" : "content reference"
+			  },
+			  "light_sensor_code_2" : {
+				"columns" : [
+				  {
+					"image" : "svg/eBrain-lightsensor.svg"
+				  },
+				  {
+					"image" : "en_analog_graph.png",
+					"body" : "Try out this graphing script to graph the sound input to the microphone.",
+					"title" : "Using the Light Sensor"
+				  }
 				],
-				"type": "content basics"
-			},
-			"positional_servo_applications" : {
-				"columns": [
-					{
-						"image": "servo-robot-arm.jpg"
-					},
-					{
-						"title": "Servos",
-						"body": "There are many applications:",
-						"list": [
-							{
-								"body": "DVD drive"
-							},
-							{
-								"body": "RC planes"
-							},
-							{
-								"body": "RC cars"
-							},
-							{
-								"body": "etc"
-							}
-						]
-					}
+				"type" : "content reference"
+			  },
+			  "light_sensor_experiment" : {
+				"columns" : [
+				  {
+					"body" : "See if you can make a quick experiment code that reacts to sound.",
+					"title" : "Challenge! Make Your Code React To Sound"
+				  }
 				],
-				"type": "content basics"
-			},
-			"positional_pwm_signal": {
-				"columns": [
-					{
-						"image": "svg/servo-positional-pulse.svg"
-					},
-					{
-						"body": "This is how the signal is sent. It is a digital pulse, like most signals in the digital world.\n\nWhat is interesting is that its <b>length</b> determines how the servo will move; <b>it's PWM!</b>.\n\nThe shorter, it moves to an angle farther left; and the longer, it moves to an angle farther right.\n\nThese are the options:",
-						"list": [
-							{"body": "<b>1 - 1.4 ms:</b> Go to the left"},
-							{"body": "<b>1.5ms:</b> Go in the middle"},
-							{"body": "<b>1.6 - 2ms:</b> Go to the right"}
-						]
-					}
-				],
-				"type": "content basics"
-			},
-			"continuous_servos_1": {
-				"columns": [
-					{
-						"image": "servo_moving_cw.jpg"
-					},
-					{
-						"image": "servo_moving_ccw.jpg"
-					},
-					{
-						"title": "Continuous servos",
-						"body": "Continuous rotation servos are those that turn in a continuous way in either direction, or stay still.",
-						"subtitle": "Why might they be used?"
-					}
-				],
-				"type": "content basics"
-			},
-			"continuous_servos_2" : {
-				"columns": [
-					{
-						"image": "servo-rc-car.jpg"
-					},
-					{
-						"title": "Uses For Continuous Rotation Servos",
-						"body": "Here are some uses. Notice there is some repition; based on the application, continuous <b>and</b> positional could both be useful.",
-						"list": [
-							{
-								"body": "CNC Machines"
-							},
-							{
-								"body": "RC planes"
-							},
-							{
-								"body": "RC cars"
-							},
-							{
-								"body": "etc"
-							}
-						]
-					}
-				],
-				"type": "content basics"
-			},
-			"continuous_pwm_signal": {
-				"columns": [
-					{
-						"image": "svg/continuous-servo-pulse.svg"
-					},
-					{
-						"title": "Its Signal",
-						"body": "It is a PWM signal, like the last one. These are the options:",
-						"list": [
-							{"body": "<b>1 - 1.4 ms:</b> turn counterclockwise"},
-							{"body": "<b>1.5ms:</b> stay still"},
-							{"body": "<b>1.6 - 2ms:</b> Turn clockwise"}
-						],
-						"fun_fact": "You may have noticed this looks identical as for the positional servo. That's because it is."
-					}
-				],
-				"type": "content basics"
-			},
-			"servo_signal_equivalence": {
-				"columns": [
-					{
-						"image": "svg/servo-signal-equivalence.svg"
-					},
-					{
-						"title": "The Signals are the Same!",
-						"body": "As I have suggested, these servos take the same signal type, even though the output is different."
-					}
-				],
-				"type": "content basics"
-			},
-			"try_servos_1": {
-				"columns": [
-					{
-						"image": "servo-plug-in-edited.jpg"
-					},
-					{
-						"title": "Plug it in",
-						"body": "Plug in your servo as shown."
-					}
-				],
-				"type": "content activity"
-			},
-			"try_servos_2": {
-				"columns": [
-					{
-						"image": "servo_en_script.png"
-					},
-					{
-						"title": "Try it Out!",
-						"body": "Try this code!"
-					}
-				],
-				"type": "content activity"
+				"type" : "content activity"
+			  }
 			}
-		}
 	  ]
 	}
   }

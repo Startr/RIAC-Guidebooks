@@ -1039,7 +1039,7 @@
 			"chapter_five" : {
 				"columns" : [
 				  {
-					"subtitle" : "Utiliser des servos",
+					"subtitle" : "Le MLI et utiliser des servos",
 					"title" : " Chapitre 5"
 				  }
 				],
@@ -1052,7 +1052,7 @@
 					},
 					{
 						"title": "Qu'est-ce que c'est le MLI (PWM)?",
-						"body": "Le MLI/PWM c'est le Modulation de largeur d'impulsion. Ça veut dire qu'on contrôle un circuit en changeant la longeur de signaux qu'on envoie; en d'autres mots, changer la largeur d'impulsion.\n\nLe MLI est très rapide. Dans le cas du eBrain, la vitesse par défaut est 1 kilohertz, ou <b>mille fois par seconde</b>!\n\nC'est utilisé partout pour contrôler l'intensité de lumières, et des écrans sur les ordinateurs et téléphones, par exemple."
+						"body": "Le MLI/PWM c'est le Modulation de Largeur d'Impulsion. Ça veut dire qu'on contrôle un circuit en changeant la longeur de signaux qu'on envoie; en d'autres mots, changer la largeur d'impulsion.\n\nC'est utilisé partout pour contrôler l'intensité de lumières, et des écrans sur les ordinateurs et téléphones, par exemple.\n\nC'est aussi comment les servomoteurs reçoivent leur signal."
 					}
 				],
 				"type": "content basics"
@@ -1251,7 +1251,7 @@
 				  },
 				  {
 					"image" : "fr_blink.png",
-					"body" : "Dans ce code, on a une boucle qui répète les instructions qu'on place à l'intérieur. Les blocs sont codés à l'aide de couleurs et sont retrouvés dans la section de la 'Palette' avec la couleur qui correspond. Ici on utilise des blocs jaunes de la palette \"Contrôles\" et des blocs noirs de la palette \"eBrain\".",
+					"body" : "Dans ce code, on a une boucle qui répète les instructions qu'on place à l'intérieur. Les blocs sont codés à l'aide de couleurs et sont retrouvés dans la section de la 'Palette' avec la couleur qui correspond. Ici on utilise des blocs jaunes de la palette <span class='control_section'>\"Contrôles\"</span> et des blocs noirs de la palette \"eBrain\".",
 					"title" : "Faire clignoter la DEL"
 				  }
 				],
@@ -1291,7 +1291,7 @@
 				  },
 				  {
 					"body" : "Pas tous les entrés sont juste 1 ou 0. Le mondre produit des signaux avec une granularité infinie, comme la musique d'une guitare, mais l'ordinateur a besion d'une manière de les interpréter!\n\nDonc, il sépare les vagues en des niveaux exacts. Le eBrain sépare des signaux analogiques dans 1024 niveaux.",
-					"image" : "analog.png",
+					"image" : "fr_analog.png",
 					"title" : "Entrée analogique"
 				  }
 				],
@@ -1313,7 +1313,7 @@
 			  "light_sensor_code_2" : {
 				"columns" : [
 				  {
-					"image" : "svg/eBrain-lightsensor.svg"
+					"image" : "en_analog_graph.png"
 				  },
 				  {
 					"image" : "fr_analog_graph.png",

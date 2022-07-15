@@ -1028,7 +1028,7 @@
 					},
 					{
 						"title": "What is pwm?",
-						"body": "PWM is pulse-width modulation. It means controlling a circuit by changing the length of pulses being sent over.\n\nPWM is very fast. In the eBrain's case, the default is 1 kilohertz, or <b>one thousand</b> times per second!\n\nIt is used everywhere to control the brightness of lights, like on laptops and smartphones, for instance.\n\nThis is also how the servos receive their signal."
+						"body": "PWM is pulse-width modulation. It means controlling a circuit by changing the length of pulses being sent over.\n\nIt is used everywhere to control the brightness of lights, like on laptops and smartphones, for instance.\n\nThis is also how the servos receive their signal."
 					}
 				],
 				"type": "content basics"
@@ -1078,7 +1078,7 @@
 						"image": "svg/servo-positional-pulse.svg"
 					},
 					{
-						"body": "This is how the signal is sent. It is a digital pulse, like most signals in the digital world.\n\nWhat is interesting is that its <b>length</b> determines how the servo will move; <b>it's PWM!</b>.\n\nThe shorter, it moves to an angle farther left; and the longer, it moves to an angle farther right.\n\nThese are the options in numbers:",
+						"body": "This is how the signal is sent. It is a digital pulse, like most signals in the digital world.\n\nWhat is interesting is that its <b>length</b> determines how the servo will move; <b>it's PWM!</b>\n\nThe shorter, it moves to an angle farther left; and the longer, it moves to an angle farther right.\n\nThese are the options in numbers:",
 						"list": [
 							{"body": "<b>1 - 1.4 ms:</b> Go to the left"},
 							{"body": "<b>1.5ms:</b> Go in the middle"},
@@ -1227,7 +1227,7 @@
 				  },
 				  {
 					"image" : "en_blink.png",
-					"body" : "In this code we have a forever loop that will repeat the instructions that we place inside it. The blocks are color coded and can be found in the 'Palette' that has the matching colors. Here we are using yellow blocks from the control palette, and black blocks from the eBrain palette.",
+					"body" : "In this code we have a forever loop that will repeat the instructions that we place inside it. The blocks are color coded and can be found in the 'Palette' that has the matching colors. Here we are using yellow blocks from the <span class='control_section'>control palette</span>, and black blocks from the eBrain palette.",
 					"title" : "Blink the LED"
 				  }
 				],
@@ -1267,7 +1267,7 @@
 				  },
 				  {
 					"body" : "Not all input is just 1 or 0. The natural world produces signals that are infinitely granular like the music from a guitar, but the computer needs a way of interpreting these signals!\n\nSo it breaks down the waves into steps. The eBrain can break down analog signals down into 1024 steps.",
-					"image" : "analog.png",
+					"image" : "en_analog.png",
 					"title" : "Analog Input"
 				  }
 				],
@@ -1289,7 +1289,7 @@
 			  "light_sensor_code_2" : {
 				"columns" : [
 				  {
-					"image" : "svg/eBrain-lightsensor.svg"
+					"image" : "fr_analog_graph.png"
 				  },
 				  {
 					"image" : "en_analog_graph.png",

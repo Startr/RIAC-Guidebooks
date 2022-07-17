@@ -1308,7 +1308,7 @@
 					  "title" : "Utiliser le capteur de lumière"
 					}
 				  ],
-				  "type" : "content reference"
+				  "type" : "content activity"
 			  },
 			  "light_sensor_code_2" : {
 				"columns" : [
@@ -1321,7 +1321,7 @@
 					"title" : "Utiliser le capteur de lumière"
 				  }
 				],
-				"type" : "content reference"
+				"type" : "content activity"
 			  },
 			  "light_sensor_experiment" : {
 				"columns" : [

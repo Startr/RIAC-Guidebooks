@@ -1308,6 +1308,140 @@
 				],
 				"type" : "content activity"
 			  }
+		},
+		{
+			"chapter_seven": {
+				"columns": [
+					{
+						"subtitle": "Assembling the Servo Robot",
+						"title": " Chapter 7"
+					}
+				],
+				"type": "title chapter_title"
+			},
+			"prepare_wheels_skeleton": {
+				"columns": [
+					{
+						"image": "servo-car/skeleton.jpeg"
+					},
+					{
+						"title": "Prepare the skeleton",
+						"list": [
+							{
+								"body": "Create the skeleton by attaching the two motor holders to the chassis. Make sure the openings on the motor holders line up!"
+							},
+							{
+								"body": "Glue it together."
+							}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"drop_in_skeleton": {
+				"columns": [
+					{
+						"image": "servo-car/skeleton.jpeg"
+					},
+					{
+						"title": "Drop-in the robot skeleton",
+						"list": [
+							{
+								"body": "Drop the skeleton into the robot body and lineup the motor holder holes."
+							},
+							{
+								"body": "Push the pegs through the cardboard."
+							}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"attach_servos": {
+				"columns": [
+					{
+						"body": "<video controls loop width='500' height='300'><source src='imgs/servo-car/drop-in-motor.mp4'> </source></video>",
+						"image": "servo-car/screw-in-servo.jpeg"
+					},
+					{
+						"title": "Attach the motors",
+						"list": [
+							{"body": "Push in the motors, while being careful not to break its wire. NOTE: the motor's sticker will fall off."},
+							{"body": "Screw the motor in."}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"attach_wheels": {
+				"columns": [
+					{
+						"image": "servo-car/wheel-1.jpg",
+						"body": "<img src='./imgs/servo-car/wheel-2.jpg'></img>"
+					},
+					{
+						"title": "Attach the whels",
+						"list": [
+							{"body": "Push in the wheels"},
+							{"body": "Screw the wheel in."}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"hook_up": {
+				"columns": [
+					{
+						"image": "servo-car/sep-wires-1.jpg",
+						"body": "<img src='./imgs/servo-car/sep-wires-2.jpg'></img>"
+					},
+					{
+						"title": "Route the wires",
+						"body": "Make sure the left wire goes on the left, and the right wire on the right."
+					}
+				],
+				"type": "activity"
+			},
+			"close_bottom": {
+				"columns": [
+					{
+						"image": "servo-car/bottom-clip.jpg",
+						"body": "<img src='./imgs/servo-car/bottom-tape.jpg'></img>"
+					},
+					{
+						"title": "Close the Bottom",
+						"body": "Add the binder clip to the back of the robot, and tape the front."
+					}
+				],
+				"type": "activity"
+			},
+			"wire": {
+				"columns": [
+					{
+						"image": "servo-car/plugin-1.jpg"
+					},
+					{
+						"image": "servo-car/plugin-2.jpg"
+					},
+					{
+						"title": "Plugin the Servos",
+						"body": "Plug in the <strong>left</strong> servo on the <strong>bottom</strong>, and the <strong>right</strong> servo on the <strong>top</strong>."
+					}
+				],
+				"type": "activity"
+			},
+			"palce-ebrain": {
+				"columns": [
+					{
+						"image": "servo-car/ebrain-placement.jpg"
+					},
+					{
+						"title": "Place the eBrain",
+						"body": "Put the eBrain in the box."
+					}
+				],
+				"type": "activity"
+			}
 		}
 	  ]
 	}

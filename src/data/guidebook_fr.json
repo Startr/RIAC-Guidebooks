@@ -1332,6 +1332,140 @@
 				],
 				"type" : "content activity"
 			  }
+		},
+		{
+			"chapter_seven": {
+				"columns": [
+					{
+						"subtitle": "Assember the robot servomoteur",
+						"title": " Chapitre 7"
+					}
+				],
+				"type": "title chapter_title"
+			},
+			"prepare_wheels_skeleton": {
+				"columns": [
+					{
+						"image": "servo-car/skeleton.jpeg"
+					},
+					{
+						"title": "Prépare the squelette",
+						"list": [
+							{
+								"body": "Crée le squelette en attachant deux de ces carrés au châssis. Assure-toi que les trous s'alignent!"
+							},
+							{
+								"body": "Colle-le."
+							}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"drop_in_skeleton": {
+				"columns": [
+					{
+						"image": "servo-car/skeleton.jpeg"
+					},
+					{
+						"title": "Rentre le squelette",
+						"list": [
+							{
+								"body": "Rentre le squelette dans le corps du robot et aligne le bois avec les trous dans le carton."
+							},
+							{
+								"body": "Pousse le bois à travers le carton."
+							}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"attach_servos": {
+				"columns": [
+					{
+						"body": "<video controls loop width='500' height='300'><source src='imgs/servo-car/drop-in-motor.mp4'> </source></video>",
+						"image": "servo-car/screw-in-servo.jpeg"
+					},
+					{
+						"title": "Attache les servomoteurs",
+						"list": [
+							{"body": "Rentre les servomoteurs, en s'assurant que tu ne brises pas son fil."},
+							{"body": "Visse le moteur."}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"attach_wheels": {
+				"columns": [
+					{
+						"image": "servo-car/wheel-1.jpg",
+						"body": "<img src='./imgs/servo-car/wheel-2.jpg'></img>"
+					},
+					{
+						"title": "Attache les roues",
+						"list": [
+							{"body": "Rentres les roues en les poussant"},
+							{"body": "Visse-les"}
+						]
+					}
+				],
+				"type": "activity"
+			},
+			"hook_up": {
+				"columns": [
+					{
+						"image": "servo-car/sep-wires-1.jpg",
+						"body": "<img src='./imgs/servo-car/sep-wires-2.jpg'></img>"
+					},
+					{
+						"title": "Dirige les câbles",
+						"body": "Assure-toi que le câble à gauche reste à gauche, et que celui à droite reste à droite."
+					}
+				],
+				"type": "activity"
+			},
+			"close_bottom": {
+				"columns": [
+					{
+						"image": "servo-car/bottom-clip.jpg",
+						"body": "<img src='./imgs/servo-car/bottom-tape.jpg'></img>"
+					},
+					{
+						"title": "Ferme le bas",
+						"body": "Ajoute la pince au derrière du robot, et mets du ruban adhésif au devant."
+					}
+				],
+				"type": "activity"
+			},
+			"wire": {
+				"columns": [
+					{
+						"image": "servo-car/plugin-1.jpg"
+					},
+					{
+						"image": "servo-car/plugin-2.jpg"
+					},
+					{
+						"title": "Branche les servomoteurs",
+						"body": "Branche le servomoteur à <strong>gauche</strong> en <strong>bas</strong>, and celui à <strong>droite</strong> en <strong>haut</strong>."
+					}
+				],
+				"type": "activity"
+			},
+			"palce-ebrain": {
+				"columns": [
+					{
+						"image": "servo-car/ebrain-placement.jpg"
+					},
+					{
+						"title": "Place le eBrain",
+						"body": "Met le eBrain dans la boîte."
+					}
+				],
+				"type": "activity"
+			}
 		}
 	  ]
 	}

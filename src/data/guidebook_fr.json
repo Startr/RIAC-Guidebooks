@@ -1416,8 +1416,7 @@
 			"hook_up": {
 				"columns": [
 					{
-						"image": "servo-car/sep-wires-1.jpg",
-						"body": "<img src='./imgs/servo-car/sep-wires-2.jpg'></img>"
+						"image": "servo-car/wires.jpeg"
 					},
 					{
 						"title": "Dirige les câbles",

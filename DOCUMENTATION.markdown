@@ -1,4 +1,4 @@
-# CodePen Forge
+# Forge
 _Transform raw code into a browser-ready preview... offline_
 
 This package contains all of the original code ([src/](./src/)), the original in-browser preview ([dist.bak](./dist.bak)), and _CodePen Forge_, a custom build process with preprocessors. You'll be able to edit and build for a local CodePen-like experience.

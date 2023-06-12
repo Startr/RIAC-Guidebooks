@@ -8,17 +8,17 @@ Original sketching of this temple system  was created as a Pen on CodePen.io. Or
 
 ## Prerequisites
 
-To use this guidebook template system, you will need to have:
+To use this guidebook template system, we will need to have:
 - node & npm or yarn installed
-- this repo cloned to your local machine or access to a cloud build env (TODO document)
+- this repo cloned to our local machine or access to a cloud build env (TODO document)
 
 ## Setup
 
 ### Install the Guidebook Template System
 
-Ensure you have a recent version of [node & npm](https://nodejs.org/en/download/) or [yarn](https://yarnpkg.com/en/docs/install) installed.
+Ensure we have a recent version of [node & npm](https://nodejs.org/en/download/) or [yarn](https://yarnpkg.com/en/docs/install) installed.
 
-All of the following steps run on the command line within this directory. You can substitute `npm` for `yarn` depending on your preferences.
+All of the following steps run on the command line within this directory. Our can substitute `npm` for `yarn` depending on our preferences.
 
 Install all the necessary packages:
 
@@ -38,7 +38,7 @@ All of the final output will be dropped into the [/dist/](./dist) folder.
 
 ## Server
 
-Run a local server that will automatically compile your code & refresh when you save a change!
+Run a local server that will automatically compile our code & refresh when you save a change!
 
 ```
 npm run serve
@@ -54,8 +54,10 @@ npm run serve
 |  |-- gulpfile.js - The tasks for the main build process
 |  |-- util.js - Utilities used by the tasks
 |
-|-- /src/ - Your code
-|  |-- index.template.html - The wrapper around your compiled HTML that includes any external stylesheets and scripts
+|-- /src/ - Our code
+|  |-- /data               - The guidbook json files for each guide
+|  |-- /imgs               - the guidbook images
+|  |-- index.template.html - The wrapper around our compiled HTML that includes any external stylesheets and scripts
 |  |-- index.partial.(html|pug|haml|...) - The raw HTML input or preprocessor equivalent
 |  |-- style.(css|scss|less|...) - The raw CSS input, or preprocessor equivalent
 |  |-- script.(js|ts|coffee|...) - The raw JavaScript input, or preprocessor equivalent

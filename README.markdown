@@ -4,7 +4,7 @@
 
 The Robot in a Can guidebook template system simplifies the creation of education guides. The purpose of this document is to explain how to use the system and provide examples of how it can be used for different types of educational materials. This guidebook template system is based on the Robot in a Can A.Somma and B. Douek. 'Robot in a Can' (RiC) system, which was developed in partnership with The Study, The Prreville Arts Center, and Montreal Inc.
 
-Original sketching of this temple system  was created as _a Pen on CodePen.io. Original URL: [https://codepen.io/openco/pen/2656175afc1d80e24427ec17f45f8da4](https://codepen.io/openco/pen/2656175afc1d80e24427ec17f45f8da4).
+Original sketching of this temple system  was created as a Pen on CodePen.io. Original URL: [https://codepen.io/openco/pen/2656175afc1d80e24427ec17f45f8da4](https://codepen.io/openco/pen/2656175afc1d80e24427ec17f45f8da4).
 
 ## Prerequisites
 
